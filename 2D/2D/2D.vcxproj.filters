@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Game">
+      <UniqueIdentifier>{f09bac09-aaa7-43df-b0fc-08c23d4dfc4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Player">
+      <UniqueIdentifier>{6a84ad51-1ba0-484a-9a8d-2d02eb205105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Lib">
+      <UniqueIdentifier>{508636d3-bee5-4882-a822-b4f91efa3e2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Lib\Collision">
+      <UniqueIdentifier>{03fc1f26-2e5a-4b1d-aeb2-b349a81510c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Lib\Input">
+      <UniqueIdentifier>{987386e6-51db-41b9-81b6-42cc4b7822f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Lib\MyMath">
+      <UniqueIdentifier>{7c07ad5d-8e46-4d6d-9dfa-498e5b237170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Lib\Debug">
+      <UniqueIdentifier>{beb63ef4-0ef2-4e3c-8e9b-0894079931d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Lib\Object">
+      <UniqueIdentifier>{f21d1b20-7078-4cec-b406-3966f812d557}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\Player\Player.cpp">
+      <Filter>ソース ファイル\Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Lib\Collision\Collision.cpp">
+      <Filter>ソース ファイル\Lib\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Lib\Input\Input.cpp">
+      <Filter>ソース ファイル\Lib\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Lib\MyMath\MyMath.cpp">
+      <Filter>ソース ファイル\Lib\MyMath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Lib\Debug\Debug.cpp">
+      <Filter>ソース ファイル\Lib\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Lib\Object\Object.cpp">
+      <Filter>ソース ファイル\Lib\Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Src\Game\Player\Player.h">
+      <Filter>ソース ファイル\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Lib\Collision\Collision.h">
+      <Filter>ソース ファイル\Lib\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Lib\Input\Input.h">
+      <Filter>ソース ファイル\Lib\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Lib\MyMath\MyMath.h">
+      <Filter>ソース ファイル\Lib\MyMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Lib\Debug\Debug.h">
+      <Filter>ソース ファイル\Lib\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Lib\Object\Object.h">
+      <Filter>ソース ファイル\Lib\Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
