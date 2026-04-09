@@ -34,31 +34,19 @@ class Player : public Object {
 public:
 	enum  PlayerState {
 		MoveState,	 // 動いている状態
-		HideState,   // 隠れている状態
-		SwingState,	 // ブランコ状態
-		TarzanAnsState,
-		TarzanState, // ターザン状態
 
 		PLSTATE_NUM		// 状態の総数
 	};
 private:
 	PlayerState m_State; // プレイヤーの状態
 
-	int m_RabitCount;	// ついてきているウサギの数
-
 	float m_JumpPow;		// ジャンプ力
-
-	int m_NTarzanID; // 当たっていないほうのターザンのIDを記憶する
-	VECTOR m_TarzanVec; // ターザン方向ベクトルを入れる
-	VECTOR m_TarzanLenV; // ターザンとの距離を求めるときのベクトル計算
-	float m_TarzanLen; // ターザンとの距離
 
 	// 移動
 	void Move(CameraManager& camera);
 	void PadMove(CameraManager& camera);
 	void Gravity();
 	void Jump();
-
 
 public:
 	// コンストラクタ・デストラクタ
@@ -76,8 +64,8 @@ public:
 	// ヒット後の処理
 	void HitCale();
 
-	// ついてきているウサギの数
-	int GetRabitCount() { return m_RabitCount; }
+	void Collision(bool hitField);
+
 
 	PlayerState GetState() { return m_State; }
 	void SetState(PlayerState state) { m_State = state; }

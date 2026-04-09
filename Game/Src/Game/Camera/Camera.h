@@ -7,12 +7,8 @@
 #include"../../Lib/MyMath/MyMath.h"
 #include"../Common.h"
 
-// カメラとプレイヤーの距離
-static const float CAMERA_LENGTH = 100.0f;
-// カメラの高さ（今回は固定）
-static const float CAMERA_OFFSET_Y = 30.0f;
-// カメラの中心点の高さ（今回は固定）
-static const float TARGET_OFFSET_Y = 35.0f;
+// カメラの高さ
+static const int CAMERA_HEIGHT = 1.5f;
 // カメラの感度
 static const int MOUSE_SENSITIVITY = 90;
 // カメラの上の移動上限

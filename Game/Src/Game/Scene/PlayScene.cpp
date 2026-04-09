@@ -59,6 +59,7 @@ int PlayScene::Loop()
 void PlayScene::Draw()
 {
 	m_Player.Draw();
+	m_Field.Draw();
 }
 
 //-----------------------------------
@@ -68,6 +69,7 @@ void PlayScene::Init()
 {
 	m_Player.Init();
 	m_Camera.Init();
+	m_Field.Init();
 }
 
 //-----------------------------------
@@ -76,6 +78,7 @@ void PlayScene::Init()
 void PlayScene::Load()
 {
 	m_Player.Load();
+	m_Field.Load();
 }
 
 //-----------------------------------
@@ -85,10 +88,15 @@ void PlayScene::Step()
 {
 	m_Player.Step(m_Camera);
 	m_Camera.Step(m_Player.GetCenter(), m_Player.GetRotation().y);
+	m_Field.Step();
+
+	// ìñÇΩÇËîªíË-----------------------
+	m_Player.Collision(m_Collision.CheckHitPlToField(m_Player, m_Field.GetHndl()));
 
 	// çXêVèàóù
 	m_Player.Update();
 	m_Camera.Updata();
+	m_Field.Updata();
 }
 
 //-----------------------------------
@@ -97,4 +105,5 @@ void PlayScene::Step()
 void PlayScene::Exit()
 {
 	m_Player.Exit();
+	m_Field.Exit();
 }

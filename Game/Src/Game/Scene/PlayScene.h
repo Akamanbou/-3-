@@ -1,6 +1,8 @@
 #pragma once
 #include"../Player/Player.h"
 #include"../Camera/CameraManager.h"
+#include"../Field/Field.h"
+#include"../../Lib/Collision/CollisionManager.h"
 
 class PlayScene
 {
@@ -16,8 +18,11 @@ private:
 
 	tagScene m_State; // 現在の状態遷移
 
+	CollisionManager m_Collision; // 当たり判定
+
 	Player m_Player; // プレイヤーの処理
 	CameraManager m_Camera; // カメラの処理
+	Field m_Field; // フィールドの処理
 
 
 public:

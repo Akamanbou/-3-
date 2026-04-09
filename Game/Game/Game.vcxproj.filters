@@ -43,6 +43,9 @@
     <Filter Include="ソース ファイル\Game\Camera">
       <UniqueIdentifier>{ac47bed2-5cd1-4233-b0f2-8364aefdc447}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\Game\Field">
+      <UniqueIdentifier>{a3ac7a08-b81b-456b-a3a0-53eb7c65c09c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -87,6 +90,12 @@
     <ClCompile Include="..\Src\Game\Camera\CameraManager.cpp">
       <Filter>ソース ファイル\Game\Camera</Filter>
     </ClCompile>
+    <ClCompile Include="..\Src\Game\Field\Field.cpp">
+      <Filter>ソース ファイル\Game\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Lib\Collision\CollisionManager.cpp">
+      <Filter>ソース ファイル\Lib\Collision</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Src\Lib\Collision\Collision.h">
@@ -130,6 +139,12 @@
     </ClInclude>
     <ClInclude Include="..\Src\Game\Camera\CameraManager.h">
       <Filter>ソース ファイル\Game\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\Field\Field.h">
+      <Filter>ソース ファイル\Game\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Lib\Collision\CollisionManager.h">
+      <Filter>ソース ファイル\Lib\Collision</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

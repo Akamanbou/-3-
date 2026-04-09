@@ -15,7 +15,6 @@ void Camera::Init()
 {
 	m_TargetPos = ZERO;
 	m_UpVec = { 0.0f,1.0f,0.0f };
-	m_Rot = { 0.0f,DX_PI_F,0.0f }; // キャラが逆を向くからそれに合わせてカメラも逆を向かせる
 	SetMousePoint(WINDOW_SIZE_X / 2, WINDOW_SIZE_Y / 2); // マウスの位置は画面の中央に設定する
 }
 
@@ -150,15 +149,6 @@ void Camera::Step(VECTOR forcus, float rotY)
 	}
 
 	// カメラの計算----------------------------------------------------
-	// 注視点を原点に平行移動する行列を作成
-	MATRIX OriginMove;
-	OriginMove = GetTranslateMatrix(-forcus.x, -forcus.y - TARGET_OFFSET_Y, -forcus.z);
-
-	// カメラを注視点より手前に移動させる平行移動行列を作成
-	MATRIX TargetFront;
-	TargetFront = GetTranslateMatrix(0.0f, TARGET_OFFSET_Y, CAMERA_LENGTH);
-
-	// カメラのX軸回転行列を作成
 	MATRIX XRot;
 	XRot = GetPitchMatrix(m_Rot.x);
 
@@ -166,20 +156,17 @@ void Camera::Step(VECTOR forcus, float rotY)
 	MATRIX YRot;
 	YRot = GetYawMatrix(m_Rot.y);
 
-	// 注視点をもとの位置に平行移動する行列を作成
-	MATRIX BackOriginMove;
-	BackOriginMove = GetTranslateMatrix(forcus.x, forcus.y + TARGET_OFFSET_Y, forcus.z);
+	// カメラの位置（高さを上げる）
+	m_Pos = VGet(forcus.x, forcus.y + CAMERA_HEIGHT, forcus.z);
 
-	// 各行列を合成（掛け算の順番に注意！！）
-	MATRIX Mix;
-	Mix = MatMult(BackOriginMove, YRot);
-	Mix = MatMult(Mix, XRot);
-	Mix = MatMult(Mix, TargetFront);
-	Mix = MatMult(Mix, OriginMove);
+	// 前方向
+	VECTOR Forward;
+	Forward.x = cosf(m_Rot.x) * sinf(m_Rot.y);
+	Forward.y = sinf(m_Rot.x);
+	Forward.z = cosf(m_Rot.x) * cosf(m_Rot.y);
 
-	// 注視点に行列をかけてカメラの座標を算出
-	m_TargetPos = VGet(forcus.x, forcus.y + TARGET_OFFSET_Y, forcus.z);
-	m_Pos = MatTransform(Mix, forcus);
+	// ターゲットに今の位置プラス視線方向を入れる
+	m_TargetPos = VAdd(m_Pos, Forward);
 
 	// 基本的にマウスの位置は真ん中になるようにする
 	SetMousePoint(WINDOW_SIZE_X / 2, WINDOW_SIZE_Y / 2);
