@@ -46,6 +46,9 @@
     <Filter Include="ソース ファイル\Game\Field">
       <UniqueIdentifier>{a3ac7a08-b81b-456b-a3a0-53eb7c65c09c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\Game\Enemy">
+      <UniqueIdentifier>{b77a4de6-2824-4ade-b89f-a222ede9f2bd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -96,6 +99,15 @@
     <ClCompile Include="..\Src\Lib\Collision\CollisionManager.cpp">
       <Filter>ソース ファイル\Lib\Collision</Filter>
     </ClCompile>
+    <ClCompile Include="..\Src\Game\Enemy\Enemy.cpp">
+      <Filter>ソース ファイル\Game\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\Enemy\EnemyBase.cpp">
+      <Filter>ソース ファイル\Game\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\Enemy\EnemyFactory.cpp">
+      <Filter>ソース ファイル\Game\Enemy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Src\Lib\Collision\Collision.h">
@@ -145,6 +157,12 @@
     </ClInclude>
     <ClInclude Include="..\Src\Lib\Collision\CollisionManager.h">
       <Filter>ソース ファイル\Lib\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\Enemy\Enemy.h">
+      <Filter>ソース ファイル\Game\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\Enemy\EnemyBase.h">
+      <Filter>ソース ファイル\Game\Enemy</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

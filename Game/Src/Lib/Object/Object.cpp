@@ -38,8 +38,8 @@ void Object::Exit()
 {
 	if (m_Hndl != -1)
 	{
-		/*MV1DeleteModel(m_Hndl);
-		m_Hndl = -1;*/
+		MV1DeleteModel(m_Hndl);
+		m_Hndl = -1;
 	}
 }
 
