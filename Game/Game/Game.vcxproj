@@ -159,6 +159,7 @@
     <ClInclude Include="..\Src\Game\Common.h" />
     <ClInclude Include="..\Src\Game\Enemy\Enemy.h" />
     <ClInclude Include="..\Src\Game\Enemy\EnemyBase.h" />
+    <ClInclude Include="..\Src\Game\Enemy\EnemyFactory.h" />
     <ClInclude Include="..\Src\Game\Field\Field.h" />
     <ClInclude Include="..\Src\Game\Player\Player.h" />
     <ClInclude Include="..\Src\Game\Scene\PlayScene.h" />

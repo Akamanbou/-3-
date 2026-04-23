@@ -1,5 +1,21 @@
-﻿  EnemyBase.cpp
+﻿  Enemy.cpp
+  EnemyBase.cpp
 C:\Users\2409421\Desktop\Game\Src\Game\Enemy\EnemyBase.h(5,31): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
   (ソース ファイル '../Src/Game/Enemy/EnemyBase.cpp' をコンパイルしています)
   
-  Game.vcxproj -> C:\Users\2409421\Desktop\Game\x64\Debug\Game.exe
+  EnemyFactory.cpp
+C:\Users\2409421\Desktop\Game\Src\Game\Enemy\EnemyBase.h(5,31): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+  (ソース ファイル '../Src/Game/Enemy/EnemyFactory.cpp' をコンパイルしています)
+  
+C:\Users\2409421\Desktop\Game\Src\Game\Enemy\Enemy.h(4,32): error C2440: '初期化中': 'const char [1]' から 'char' に変換できません。
+  コードを生成中...
+  (ソース ファイル '../Src/Game/Enemy/EnemyFactory.cpp' をコンパイルしています)
+      C:\Users\2409421\Desktop\Game\Src\Game\Enemy\Enemy.h(4,32):
+      この変換が可能なコンテキストはありません。
+  
+C:\Users\2409421\Desktop\Game\Src\Game\Enemy\Enemy.h(7,1): error C2236: 予期しないトークン 'class' です。';' が入力されていることを確認してください。
+  (ソース ファイル '../Src/Game/Enemy/EnemyFactory.cpp' をコンパイルしています)
+  
+C:\Users\2409421\Desktop\Game\Src\Game\Enemy\Enemy.h(7,7): warning C4091: 'static ': 変数が何も宣言されていないときは、'const Enemy' の左辺を無視します。
+  (ソース ファイル '../Src/Game/Enemy/EnemyFactory.cpp' をコンパイルしています)
+  
