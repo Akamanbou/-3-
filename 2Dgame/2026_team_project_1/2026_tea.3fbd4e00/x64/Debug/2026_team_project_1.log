@@ -1,0 +1,9 @@
+﻿  load_anim.cpp
+C:\Users\2409421\Desktop\2Dgame\2026_team_project_1\src\game\private\game\UI\load_anim.cpp(54,30): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\2409421\Desktop\2Dgame\2026_team_project_1\src\game\private\game\UI\load_anim.cpp(54,21): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  title_back.cpp
+C:\Users\2409421\Desktop\2Dgame\2026_team_project_1\src\game\private\game\UI\title_back.cpp(36,30): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\2409421\Desktop\2Dgame\2026_team_project_1\src\game\private\game\UI\title_back.cpp(36,21): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  UI_manager.cpp
+  コードを生成中...
+  2026_team_project_1.vcxproj -> C:\Users\2409421\Desktop\2Dgame\2026_team_project_1\x64\Debug\2026_team_project_1.exe

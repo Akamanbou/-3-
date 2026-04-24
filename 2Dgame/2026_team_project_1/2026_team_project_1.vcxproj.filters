@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src\system">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="src\game">
+      <UniqueIdentifier>{e2394633-7f65-4d85-bbd5-735aff3099df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lib">
+      <UniqueIdentifier>{ae59d35a-df93-4635-a3b3-662895de388f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\imgui">
+      <UniqueIdentifier>{a9cc765b-3ae8-47a3-9edb-0b32d2c26a10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\system\private">
+      <UniqueIdentifier>{abeed2ee-47ae-48bf-89d3-a9ba2526a7a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\system\public">
+      <UniqueIdentifier>{da610358-c6b5-4658-a22a-596bf7a583fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\system\private\scene">
+      <UniqueIdentifier>{7bec17b8-debc-400d-9ee9-ad5455f15665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\system\public\scene">
+      <UniqueIdentifier>{63c41c0a-322e-42b7-b1da-0535331dfff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lib\private">
+      <UniqueIdentifier>{27d3566f-b81e-4a37-991a-c244b300725f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lib\public">
+      <UniqueIdentifier>{bd1969fe-af7d-4817-ad0e-4e17d4ec826e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\public">
+      <UniqueIdentifier>{0a8cd5e9-6f12-4234-90a6-aade7fb183e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\private">
+      <UniqueIdentifier>{f12fcbc6-08d6-45f3-9f1f-4865741c0ad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\private\effekseer">
+      <UniqueIdentifier>{ff9102c1-710e-46b8-b00d-b73f2eae5f08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\private\game">
+      <UniqueIdentifier>{46b27cf3-034d-48bd-b975-bc6364f43076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\public\game">
+      <UniqueIdentifier>{bb2a7a14-c5ae-4e7a-9e14-44abfb9e24d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\public\effekseer">
+      <UniqueIdentifier>{413e4629-6227-44e3-b64c-bfc10fcaa3af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\private\base">
+      <UniqueIdentifier>{4442c6f0-9f45-421c-a4a0-34f9c540cfa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\public\base">
+      <UniqueIdentifier>{655d199a-708a-4b66-99a8-62fe8e2f6abd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lib\private\2Ddirection">
+      <UniqueIdentifier>{18986d0c-6c6c-4c19-acb1-971d52e80256}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lib\public\2Ddirection">
+      <UniqueIdentifier>{4e0df661-b770-411e-b892-26f1dba142fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lib\public\2Ddirection\easing">
+      <UniqueIdentifier>{664f801c-1c92-4d2c-ae6b-c6cde6b0ba8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lib\private\2Ddirection\easing">
+      <UniqueIdentifier>{59d766b4-0976-4621-900b-99fa331031b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\system\private\UI">
+      <UniqueIdentifier>{823863a3-c458-4039-9ac0-85dd3ef89996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\system\public\UI">
+      <UniqueIdentifier>{2d370bfd-28be-420c-a853-6a092b57ad6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\private\game\actor">
+      <UniqueIdentifier>{da0bf13d-7708-4aa6-a1d0-9315378f8942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\private\game\actor\player">
+      <UniqueIdentifier>{f5ee0f0e-392b-4444-9039-d7e646ea2efb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\private\game\actor\enemy">
+      <UniqueIdentifier>{011ec641-c5fc-4a1a-82e0-989fbaacc593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\private\game\camera">
+      <UniqueIdentifier>{c469ad55-53a8-4eb6-ac31-9a134e438c09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\private\game\manager">
+      <UniqueIdentifier>{63bdd8c4-27d2-41e3-af30-c2d5b4f0bf09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\private\game\object">
+      <UniqueIdentifier>{04656ba0-95c8-4c7d-b39c-e611a66754eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\private\game\collision">
+      <UniqueIdentifier>{69c78f5e-9c42-4868-8c62-945a1587e41f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\public\game\actor">
+      <UniqueIdentifier>{ea6d05b2-2c49-481b-aa36-4a195a4f6a29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\public\game\manager">
+      <UniqueIdentifier>{74d444f8-b2b1-407b-866d-2ac7747191f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\public\game\collision">
+      <UniqueIdentifier>{1b2de9c3-5b9a-4064-a7bb-051915961712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\public\game\camera">
+      <UniqueIdentifier>{1848aae0-20a9-4db8-8526-19e56af558b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\public\game\object">
+      <UniqueIdentifier>{1fad35f8-759b-4182-954b-3be71fbc367f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\private\game\UI">
+      <UniqueIdentifier>{d816ab67-357c-419b-86fc-5ed87dba3cd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\public\game\UI">
+      <UniqueIdentifier>{6ad9f921-dcd0-4d13-ab27-888195eba2e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\private\game\actor\player\player">
+      <UniqueIdentifier>{8515c1a3-81c7-4166-81c8-f0d1faa1762b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\public\game\actor\player">
+      <UniqueIdentifier>{3e611a9f-84ee-415d-873a-05a79d63746e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\common.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\public\scene\scene.h">
+      <Filter>src\system\public\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\public\scene\scene_data.h">
+      <Filter>src\system\public\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\public\scene\scene_editer.h">
+      <Filter>src\system\public\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\public\scene\scene_factory.h">
+      <Filter>src\system\public\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\public\scene\scene_manager.h">
+      <Filter>src\system\public\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\public\scene\scene_play.h">
+      <Filter>src\system\public\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\public\scene\scene_result.h">
+      <Filter>src\system\public\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\public\scene\scene_select.h">
+      <Filter>src\system\public\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\public\scene\scene_title.h">
+      <Filter>src\system\public\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\public\lib\2Dcollosion.h">
+      <Filter>src\lib\public</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\public\lib\bgm_manager.h">
+      <Filter>src\lib\public</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\public\lib\collision.h">
+      <Filter>src\lib\public</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\public\lib\fade.h">
+      <Filter>src\lib\public</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\public\lib\fps.h">
+      <Filter>src\lib\public</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\public\lib\input.h">
+      <Filter>src\lib\public</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\public\lib\input_config.h">
+      <Filter>src\lib\public</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\public\lib\math2D.h">
+      <Filter>src\lib\public</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\public\lib\mouseinput.h">
+      <Filter>src\lib\public</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\public\lib\mymath.h">
+      <Filter>src\lib\public</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\public\lib\rand.h">
+      <Filter>src\lib\public</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\public\lib\score.h">
+      <Filter>src\lib\public</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\public\lib\se_manager.h">
+      <Filter>src\lib\public</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\public\lib\Xinput.h">
+      <Filter>src\lib\public</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imconfig.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_impl_dx11.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_impl_win32.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_internal.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imstb_rectpack.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imstb_textedit.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imstb_truetype.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\public\effekseer\effekseer.h">
+      <Filter>src\game\public\effekseer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\public\game\base\actor.h">
+      <Filter>src\game\public\base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\public\game\base\manager_base.h">
+      <Filter>src\game\public\base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\public\game\base\object.h">
+      <Filter>src\game\public\base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\public\game\base\UI_object.h">
+      <Filter>src\game\public\base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\public\game\base\camera.h">
+      <Filter>src\game\public\base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\public\lib\2Dhndlmanager.h">
+      <Filter>src\lib\public</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\public\lib\3Dhndlmanager.h">
+      <Filter>src\lib\public</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\public\game\manager\enemy_manager.h">
+      <Filter>src\game\public\game\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\public\game\manager\map_manager.h">
+      <Filter>src\game\public\game\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\public\game\manager\player_manager.h">
+      <Filter>src\game\public\game\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\public\game\collision\collision_manager.h">
+      <Filter>src\game\public\game\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\public\UI\UI_manager.h">
+      <Filter>src\system\public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\public\game\UI\back_ground.h">
+      <Filter>src\game\public\game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\public\game\UI\load_anim.h">
+      <Filter>src\game\public\game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\public\game\UI\title_back.h">
+      <Filter>src\game\public\game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\public\game\actor\player\player.h">
+      <Filter>src\game\public\game\actor\player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\public\game\UI\play_back_ground.h">
+      <Filter>src\game\public\game\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\private\scene\scene.cpp">
+      <Filter>src\system\private\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\private\scene\scene_data.cpp">
+      <Filter>src\system\private\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\private\scene\scene_editer.cpp">
+      <Filter>src\system\private\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\private\scene\scene_factory.cpp">
+      <Filter>src\system\private\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\private\scene\scene_manager.cpp">
+      <Filter>src\system\private\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\private\scene\scene_play.cpp">
+      <Filter>src\system\private\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\private\scene\scene_result.cpp">
+      <Filter>src\system\private\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\private\scene\scene_select.cpp">
+      <Filter>src\system\private\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\private\scene\scene_title.cpp">
+      <Filter>src\system\private\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\private\lib\2Dcollision.cpp">
+      <Filter>src\lib\private</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\private\lib\bgm_manager.cpp">
+      <Filter>src\lib\private</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\private\lib\collision.cpp">
+      <Filter>src\lib\private</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\private\lib\fade.cpp">
+      <Filter>src\lib\private</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\private\lib\fps.cpp">
+      <Filter>src\lib\private</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\private\lib\input.cpp">
+      <Filter>src\lib\private</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\private\lib\input_config.cpp">
+      <Filter>src\lib\private</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\private\lib\math2D.cpp">
+      <Filter>src\lib\private</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\private\lib\mouseinput.cpp">
+      <Filter>src\lib\private</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\private\lib\mymath.cpp">
+      <Filter>src\lib\private</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\private\lib\rand.cpp">
+      <Filter>src\lib\private</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\private\lib\score.cpp">
+      <Filter>src\lib\private</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\private\lib\se_manager .cpp">
+      <Filter>src\lib\private</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\private\lib\Xinput.cpp">
+      <Filter>src\lib\private</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_draw.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_impl_dx11.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_impl_win32.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_tables.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_widgets.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\private\effekseer\effekseer.cpp">
+      <Filter>src\game\private\effekseer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\private\game\base\actor.cpp">
+      <Filter>src\game\private\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\private\game\base\object.cpp">
+      <Filter>src\game\private\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\private\game\base\camera.cpp">
+      <Filter>src\game\private\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\private\lib\2Ddirection\easing\easing.cpp">
+      <Filter>src\lib\private\2Ddirection\easing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\private\lib\2Dhndlmanager.cpp">
+      <Filter>src\lib\private</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\private\lib\3Dhndlmanager.cpp">
+      <Filter>src\lib\private</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\private\game\manager\enemy_manager.cpp">
+      <Filter>src\game\private\game\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\private\game\manager\map_manager.cpp">
+      <Filter>src\game\private\game\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\private\game\manager\player_manager.cpp">
+      <Filter>src\game\private\game\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\private\game\collision\collision_manager.cpp">
+      <Filter>src\game\private\game\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\private\UI\UI_manager.cpp">
+      <Filter>src\system\private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\private\game\UI\back_ground.cpp">
+      <Filter>src\game\private\game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\private\game\UI\load_anim.cpp">
+      <Filter>src\game\private\game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\private\game\UI\title_back.cpp">
+      <Filter>src\game\private\game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\private\game\actor\player\player.cpp">
+      <Filter>src\game\private\game\actor\player\player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\private\game\UI\play_back_ground.cpp">
+      <Filter>src\game\private\game\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
