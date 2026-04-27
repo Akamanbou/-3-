@@ -2,6 +2,8 @@
 
 #include "scene.h"
 #include "game/manager/player_manager.h"
+#include"game/manager/enemy_manager.h"
+#include"game/collision/collision_manager.h"
 
 
 class C_SCENE_PLAY: public C_SCENE_BASE
@@ -21,6 +23,10 @@ private:
 	PLAY_STATE m_playState;
 
 	C_PLAYER_MANAGER c_playerManager;
+
+	C_ENEMY_MANAGER c_enemyManager;
+
+	C_COLLISION_MANAGER c_collisionManager;
 
 private:
 

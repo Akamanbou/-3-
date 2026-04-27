@@ -3,16 +3,95 @@
   "WorkspaceRootPath": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\actor\\player\\player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\public\\game\\actor\\player\\player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\collision\\collision_manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\private\\game\\collision\\collision_manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\actor\\player\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\private\\game\\actor\\player\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\actor\\enemy\\enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\public\\game\\actor\\enemy\\enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\base\\object.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\public\\game\\base\\object.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\manager\\player_manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\private\\game\\manager\\player_manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\lib\\2Dhndlmanager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\private\\lib\\2Dhndlmanager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\system\\private\\scene\\scene_play.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\system\\private\\scene\\scene_play.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\manager\\enemy_manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\private\\game\\manager\\enemy_manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.42.34433\\include\\list||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\base\\actor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\private\\game\\base\\actor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\actor\\enemy\\enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\public\\game\\actor\\enemy\\enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\collision\\collision_manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\public\\game\\collision\\collision_manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\system\\public\\scene\\scene_play.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\system\\public\\scene\\scene_play.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\lib\\collision.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\private\\lib\\collision.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\lib\\collision.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\public\\lib\\collision.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\manager\\enemy_manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\public\\game\\manager\\enemy_manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\base\\object.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\private\\game\\base\\object.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\actor\\player\\player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\public\\game\\actor\\player\\player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\manager\\player_manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\public\\game\\manager\\player_manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\UI\\play_back_ground.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\public\\game\\UI\\play_back_ground.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\UI\\load_anim.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\public\\game\\UI\\load_anim.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\UI\\back_ground.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\public\\game\\UI\\back_ground.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\UI\\load_anim.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -31,24 +110,8 @@
       "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\public\\game\\base\\UI_object.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\collision\\collision_manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\public\\game\\collision\\collision_manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\manager\\player_manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\public\\game\\manager\\player_manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\manager\\map_manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\public\\game\\manager\\map_manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\UI\\back_ground.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\public\\game\\UI\\back_ground.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\UI\\load_anim.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\public\\game\\UI\\load_anim.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\UI\\title_back.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -63,36 +126,12 @@
       "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\system\\public\\UI\\UI_manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\base\\object.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\private\\game\\base\\object.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\base\\object.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\public\\game\\base\\object.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\UI\\play_back_ground.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\public\\game\\UI\\play_back_ground.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\UI\\back_ground.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\private\\game\\UI\\back_ground.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\system\\public\\scene\\scene_play.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\system\\public\\scene\\scene_play.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\system\\private\\scene\\scene_play.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\system\\private\\scene\\scene_play.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\system\\private\\scene\\scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -123,18 +162,6 @@
       "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\public\\game\\base\\manager_base.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\base\\actor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\private\\game\\base\\actor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\lib\\2Dhndlmanager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\private\\lib\\2Dhndlmanager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\manager\\enemy_manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\private\\game\\manager\\enemy_manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\base\\actor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\public\\game\\base\\actor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -143,20 +170,12 @@
       "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\private\\lib\\3Dhndlmanager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\collision\\collision_manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\private\\game\\collision\\collision_manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\lib\\2Dhndlmanager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\public\\lib\\2Dhndlmanager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\base\\camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\private\\game\\base\\camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\lib\\collision.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\private\\lib\\collision.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\lib\\bgm_manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -187,10 +206,6 @@
       "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\system\\private\\scene\\scene_select.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\manager\\enemy_manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\public\\game\\manager\\enemy_manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\lib\\2Dcollosion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3FBD4E00-3614-43CA-8962-BE6081D8C95D}|2026_team_project_1.vcxproj|solutionrelative:src\\game\\public\\lib\\2Dcollosion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -202,17 +217,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 3,
               "Title": "object.h",
               "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\base\\object.h",
               "RelativeDocumentMoniker": "src\\game\\public\\game\\base\\object.h",
               "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\base\\object.h",
               "RelativeToolTip": "src\\game\\public\\game\\base\\object.h",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAIwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-04-06T09:16:22.629Z",
               "IsPinned": true,
@@ -220,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "object.cpp",
               "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\base\\object.cpp",
               "RelativeDocumentMoniker": "src\\game\\private\\game\\base\\object.cpp",
@@ -234,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 40,
               "Title": "actor.h",
               "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\base\\actor.h",
               "RelativeDocumentMoniker": "src\\game\\public\\game\\base\\actor.h",
@@ -247,13 +262,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 9,
               "Title": "actor.cpp",
               "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\base\\actor.cpp",
               "RelativeDocumentMoniker": "src\\game\\private\\game\\base\\actor.cpp",
               "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\base\\actor.cpp",
               "RelativeToolTip": "src\\game\\private\\game\\base\\actor.cpp",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADcAAABXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-04-10T02:00:17.805Z",
               "IsPinned": true,
@@ -261,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 5,
               "Title": "2Dhndlmanager.cpp",
               "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\lib\\2Dhndlmanager.cpp",
               "RelativeDocumentMoniker": "src\\game\\private\\lib\\2Dhndlmanager.cpp",
@@ -270,24 +285,26 @@
               "ViewState": "AgIAADAAAAAAAAAAAADwvwsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-04-09T07:19:20.916Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 0,
               "Title": "collision_manager.cpp",
               "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\collision\\collision_manager.cpp",
               "RelativeDocumentMoniker": "src\\game\\private\\game\\collision\\collision_manager.cpp",
               "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\collision\\collision_manager.cpp",
               "RelativeToolTip": "src\\game\\private\\game\\collision\\collision_manager.cpp",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAEYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-04-10T08:00:40.772Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "collision_manager.h",
               "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\collision\\collision_manager.h",
               "RelativeDocumentMoniker": "src\\game\\public\\game\\collision\\collision_manager.h",
@@ -301,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 25,
               "Title": "title_back.cpp",
               "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\UI\\title_back.cpp",
               "RelativeDocumentMoniker": "src\\game\\private\\game\\UI\\title_back.cpp",
@@ -310,8 +327,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-04-13T06:49:31.579Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -321,7 +337,7 @@
               "RelativeDocumentMoniker": "src\\game\\private\\game\\actor\\player\\player.cpp",
               "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\actor\\player\\player.cpp",
               "RelativeToolTip": "src\\game\\private\\game\\actor\\player\\player.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-04-13T05:54:58.789Z",
               "IsPinned": true,
@@ -329,13 +345,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 18,
               "Title": "player.h",
               "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\actor\\player\\player.h",
               "RelativeDocumentMoniker": "src\\game\\public\\game\\actor\\player\\player.h",
               "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\actor\\player\\player.h",
               "RelativeToolTip": "src\\game\\public\\game\\actor\\player\\player.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-04-24T03:58:16.452Z",
               "IsPinned": true,
@@ -343,145 +359,132 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "player_manager.cpp",
               "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\manager\\player_manager.cpp",
               "RelativeDocumentMoniker": "src\\game\\private\\game\\manager\\player_manager.cpp",
               "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\manager\\player_manager.cpp",
               "RelativeToolTip": "src\\game\\private\\game\\manager\\player_manager.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAqwEAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-04-13T05:34:32.9Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "load_anim.cpp",
-              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\UI\\load_anim.cpp",
-              "RelativeDocumentMoniker": "src\\game\\private\\game\\UI\\load_anim.cpp",
-              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\UI\\load_anim.cpp",
-              "RelativeToolTip": "src\\game\\private\\game\\UI\\load_anim.cpp",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAQAAABMAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "enemy.cpp",
+              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\actor\\enemy\\enemy.cpp",
+              "RelativeDocumentMoniker": "src\\game\\public\\game\\actor\\enemy\\enemy.cpp",
+              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\actor\\enemy\\enemy.cpp",
+              "RelativeToolTip": "src\\game\\public\\game\\actor\\enemy\\enemy.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-13T06:49:27.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "play_back_ground.cpp",
-              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\UI\\play_back_ground.cpp",
-              "RelativeDocumentMoniker": "src\\game\\private\\game\\UI\\play_back_ground.cpp",
-              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\UI\\play_back_ground.cpp",
-              "RelativeToolTip": "src\\game\\private\\game\\UI\\play_back_ground.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-24T03:27:58.837Z",
+              "WhenOpened": "2026-04-27T05:19:39.639Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "UI_object.h",
-              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\base\\UI_object.h",
-              "RelativeDocumentMoniker": "src\\game\\public\\game\\base\\UI_object.h",
-              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\base\\UI_object.h",
-              "RelativeToolTip": "src\\game\\public\\game\\base\\UI_object.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-24T02:58:34.74Z",
+              "Title": "scene_play.cpp",
+              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\system\\private\\scene\\scene_play.cpp",
+              "RelativeDocumentMoniker": "src\\system\\private\\scene\\scene_play.cpp",
+              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\system\\private\\scene\\scene_play.cpp",
+              "RelativeToolTip": "src\\system\\private\\scene\\scene_play.cpp",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAFQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-13T05:42:31.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "enemy_manager.cpp",
+              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\manager\\enemy_manager.cpp",
+              "RelativeDocumentMoniker": "src\\game\\private\\game\\manager\\enemy_manager.cpp",
+              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\manager\\enemy_manager.cpp",
+              "RelativeToolTip": "src\\game\\private\\game\\manager\\enemy_manager.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-13T05:35:19.524Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "player_manager.h",
-              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\manager\\player_manager.h",
-              "RelativeDocumentMoniker": "src\\game\\public\\game\\manager\\player_manager.h",
-              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\manager\\player_manager.h",
-              "RelativeToolTip": "src\\game\\public\\game\\manager\\player_manager.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-13T05:40:17.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "map_manager.h",
-              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\manager\\map_manager.h",
-              "RelativeDocumentMoniker": "src\\game\\public\\game\\manager\\map_manager.h",
-              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\manager\\map_manager.h",
-              "RelativeToolTip": "src\\game\\public\\game\\manager\\map_manager.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-13T05:41:37.494Z",
+              "Title": "list",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.42.34433\\include\\list",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.42.34433\\include\\list",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.42.34433\\include\\list",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.42.34433\\include\\list",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAIwJ8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-27T06:11:05.614Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "back_ground.h",
-              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\UI\\back_ground.h",
-              "RelativeDocumentMoniker": "src\\game\\public\\game\\UI\\back_ground.h",
-              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\UI\\back_ground.h",
-              "RelativeToolTip": "src\\game\\public\\game\\UI\\back_ground.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Title": "enemy.h",
+              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\actor\\enemy\\enemy.h",
+              "RelativeDocumentMoniker": "src\\game\\public\\game\\actor\\enemy\\enemy.h",
+              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\actor\\enemy\\enemy.h",
+              "RelativeToolTip": "src\\game\\public\\game\\actor\\enemy\\enemy.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-13T06:51:59.121Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "load_anim.h",
-              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\UI\\load_anim.h",
-              "RelativeDocumentMoniker": "src\\game\\public\\game\\UI\\load_anim.h",
-              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\UI\\load_anim.h",
-              "RelativeToolTip": "src\\game\\public\\game\\UI\\load_anim.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-24T03:28:05.156Z",
+              "WhenOpened": "2026-04-27T05:19:26.046Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "title_back.h",
-              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\UI\\title_back.h",
-              "RelativeDocumentMoniker": "src\\game\\public\\game\\UI\\title_back.h",
-              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\UI\\title_back.h",
-              "RelativeToolTip": "src\\game\\public\\game\\UI\\title_back.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwUAAAAAAAAAAAAAAA==",
+              "Title": "scene_play.h",
+              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\system\\public\\scene\\scene_play.h",
+              "RelativeDocumentMoniker": "src\\system\\public\\scene\\scene_play.h",
+              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\system\\public\\scene\\scene_play.h",
+              "RelativeToolTip": "src\\system\\public\\scene\\scene_play.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-24T03:29:32.536Z",
+              "WhenOpened": "2026-04-24T03:05:09.041Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "UI_manager.cpp",
-              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\system\\private\\UI\\UI_manager.cpp",
-              "RelativeDocumentMoniker": "src\\system\\private\\UI\\UI_manager.cpp",
-              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\system\\private\\UI\\UI_manager.cpp",
-              "RelativeToolTip": "src\\system\\private\\UI\\UI_manager.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAZAAAAAAAAAA==",
+              "Title": "collision.cpp",
+              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\lib\\collision.cpp",
+              "RelativeDocumentMoniker": "src\\game\\private\\lib\\collision.cpp",
+              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\lib\\collision.cpp",
+              "RelativeToolTip": "src\\game\\private\\lib\\collision.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-13T05:43:03.531Z",
+              "WhenOpened": "2026-04-10T08:01:15.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "UI_manager.h",
-              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\system\\public\\UI\\UI_manager.h",
-              "RelativeDocumentMoniker": "src\\system\\public\\UI\\UI_manager.h",
-              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\system\\public\\UI\\UI_manager.h",
-              "RelativeToolTip": "src\\system\\public\\UI\\UI_manager.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Title": "collision.h",
+              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\lib\\collision.h",
+              "RelativeDocumentMoniker": "src\\game\\public\\lib\\collision.h",
+              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\lib\\collision.h",
+              "RelativeToolTip": "src\\game\\public\\lib\\collision.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-24T02:59:02.394Z",
+              "WhenOpened": "2026-04-27T06:02:29.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "enemy_manager.h",
+              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\manager\\enemy_manager.h",
+              "RelativeDocumentMoniker": "src\\game\\public\\game\\manager\\enemy_manager.h",
+              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\manager\\enemy_manager.h",
+              "RelativeToolTip": "src\\game\\public\\game\\manager\\enemy_manager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-13T05:35:34.088Z",
               "EditorCaption": ""
             },
             {
@@ -492,27 +495,14 @@
               "RelativeDocumentMoniker": "src\\common.h",
               "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\common.h",
               "RelativeToolTip": "src\\common.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-04-13T06:32:44.952Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\main.cpp",
-              "RelativeDocumentMoniker": "src\\main.cpp",
-              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\main.cpp",
-              "RelativeToolTip": "src\\main.cpp",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-24T03:38:47.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "play_back_ground.h",
               "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\UI\\play_back_ground.h",
               "RelativeDocumentMoniker": "src\\game\\public\\game\\UI\\play_back_ground.h",
@@ -525,7 +515,142 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
+              "Title": "load_anim.h",
+              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\UI\\load_anim.h",
+              "RelativeDocumentMoniker": "src\\game\\public\\game\\UI\\load_anim.h",
+              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\UI\\load_anim.h",
+              "RelativeToolTip": "src\\game\\public\\game\\UI\\load_anim.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-24T03:28:05.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "back_ground.h",
+              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\UI\\back_ground.h",
+              "RelativeDocumentMoniker": "src\\game\\public\\game\\UI\\back_ground.h",
+              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\UI\\back_ground.h",
+              "RelativeToolTip": "src\\game\\public\\game\\UI\\back_ground.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-13T06:51:59.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UI_object.h",
+              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\base\\UI_object.h",
+              "RelativeDocumentMoniker": "src\\game\\public\\game\\base\\UI_object.h",
+              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\base\\UI_object.h",
+              "RelativeToolTip": "src\\game\\public\\game\\base\\UI_object.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-24T02:58:34.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "player_manager.h",
+              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\manager\\player_manager.h",
+              "RelativeDocumentMoniker": "src\\game\\public\\game\\manager\\player_manager.h",
+              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\manager\\player_manager.h",
+              "RelativeToolTip": "src\\game\\public\\game\\manager\\player_manager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-13T05:40:17.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "map_manager.h",
+              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\manager\\map_manager.h",
+              "RelativeDocumentMoniker": "src\\game\\public\\game\\manager\\map_manager.h",
+              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\manager\\map_manager.h",
+              "RelativeToolTip": "src\\game\\public\\game\\manager\\map_manager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-13T05:41:37.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "title_back.h",
+              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\UI\\title_back.h",
+              "RelativeDocumentMoniker": "src\\game\\public\\game\\UI\\title_back.h",
+              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\UI\\title_back.h",
+              "RelativeToolTip": "src\\game\\public\\game\\UI\\title_back.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-24T03:29:32.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UI_manager.cpp",
+              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\system\\private\\UI\\UI_manager.cpp",
+              "RelativeDocumentMoniker": "src\\system\\private\\UI\\UI_manager.cpp",
+              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\system\\private\\UI\\UI_manager.cpp",
+              "RelativeToolTip": "src\\system\\private\\UI\\UI_manager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-13T05:43:03.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "play_back_ground.cpp",
+              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\UI\\play_back_ground.cpp",
+              "RelativeDocumentMoniker": "src\\game\\private\\game\\UI\\play_back_ground.cpp",
+              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\UI\\play_back_ground.cpp",
+              "RelativeToolTip": "src\\game\\private\\game\\UI\\play_back_ground.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-24T03:27:58.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "load_anim.cpp",
+              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\UI\\load_anim.cpp",
+              "RelativeDocumentMoniker": "src\\game\\private\\game\\UI\\load_anim.cpp",
+              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\UI\\load_anim.cpp",
+              "RelativeToolTip": "src\\game\\private\\game\\UI\\load_anim.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAQAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-13T06:49:27.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UI_manager.h",
+              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\system\\public\\UI\\UI_manager.h",
+              "RelativeDocumentMoniker": "src\\system\\public\\UI\\UI_manager.h",
+              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\system\\public\\UI\\UI_manager.h",
+              "RelativeToolTip": "src\\system\\public\\UI\\UI_manager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-24T02:59:02.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\main.cpp",
+              "RelativeDocumentMoniker": "src\\main.cpp",
+              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\main.cpp",
+              "RelativeToolTip": "src\\main.cpp",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-24T03:38:47.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "back_ground.cpp",
               "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\UI\\back_ground.cpp",
               "RelativeDocumentMoniker": "src\\game\\private\\game\\UI\\back_ground.cpp",
@@ -533,38 +658,11 @@
               "RelativeToolTip": "src\\game\\private\\game\\UI\\back_ground.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-13T05:43:41.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T05:43:41.178Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "scene_play.cpp",
-              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\system\\private\\scene\\scene_play.cpp",
-              "RelativeDocumentMoniker": "src\\system\\private\\scene\\scene_play.cpp",
-              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\system\\private\\scene\\scene_play.cpp",
-              "RelativeToolTip": "src\\system\\private\\scene\\scene_play.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-13T05:42:31.083Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "scene_play.h",
-              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\system\\public\\scene\\scene_play.h",
-              "RelativeDocumentMoniker": "src\\system\\public\\scene\\scene_play.h",
-              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\system\\public\\scene\\scene_play.h",
-              "RelativeToolTip": "src\\system\\public\\scene\\scene_play.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-24T03:05:09.041Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 33,
               "Title": "scene.cpp",
               "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\system\\private\\scene\\scene.cpp",
               "RelativeDocumentMoniker": "src\\system\\private\\scene\\scene.cpp",
@@ -572,12 +670,11 @@
               "RelativeToolTip": "src\\system\\private\\scene\\scene.cpp",
               "ViewState": "AgIAAC0AAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-24T03:16:48.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-24T03:16:48.281Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 34,
               "Title": "scene_title.cpp",
               "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\system\\private\\scene\\scene_title.cpp",
               "RelativeDocumentMoniker": "src\\system\\private\\scene\\scene_title.cpp",
@@ -585,12 +682,11 @@
               "RelativeToolTip": "src\\system\\private\\scene\\scene_title.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAmwBkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-13T05:41:58.666Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T05:41:58.666Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 35,
               "Title": "scene.h",
               "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\system\\public\\scene\\scene.h",
               "RelativeDocumentMoniker": "src\\system\\public\\scene\\scene.h",
@@ -598,12 +694,11 @@
               "RelativeToolTip": "src\\system\\public\\scene\\scene.h",
               "ViewState": "AgIAACAAAAAAAAAAAAAmwDkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-24T02:58:45.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-24T02:58:45.766Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 36,
               "Title": "scene_manager.cpp",
               "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\system\\private\\scene\\scene_manager.cpp",
               "RelativeDocumentMoniker": "src\\system\\private\\scene\\scene_manager.cpp",
@@ -611,12 +706,11 @@
               "RelativeToolTip": "src\\system\\private\\scene\\scene_manager.cpp",
               "ViewState": "AgIAABcAAAAAAAAAAAAQwEAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-13T06:54:52.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T06:54:52.882Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 37,
               "Title": "scene_manager.h",
               "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\system\\public\\scene\\scene_manager.h",
               "RelativeDocumentMoniker": "src\\system\\public\\scene\\scene_manager.h",
@@ -624,12 +718,11 @@
               "RelativeToolTip": "src\\system\\public\\scene\\scene_manager.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-24T02:59:25.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-24T02:59:25.394Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 38,
               "Title": "scene_editer.cpp",
               "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\system\\private\\scene\\scene_editer.cpp",
               "RelativeDocumentMoniker": "src\\system\\private\\scene\\scene_editer.cpp",
@@ -637,12 +730,11 @@
               "RelativeToolTip": "src\\system\\private\\scene\\scene_editer.cpp",
               "ViewState": "AgIAAAYAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-24T03:04:55.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-24T03:04:55.438Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 39,
               "Title": "manager_base.h",
               "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\base\\manager_base.h",
               "RelativeDocumentMoniker": "src\\game\\public\\game\\base\\manager_base.h",
@@ -650,12 +742,11 @@
               "RelativeToolTip": "src\\game\\public\\game\\base\\manager_base.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-24T03:01:21.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-24T03:01:21.395Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 41,
               "Title": "3Dhndlmanager.cpp",
               "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\lib\\3Dhndlmanager.cpp",
               "RelativeDocumentMoniker": "src\\game\\private\\lib\\3Dhndlmanager.cpp",
@@ -667,7 +758,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 43,
               "Title": "camera.cpp",
               "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\base\\camera.cpp",
               "RelativeDocumentMoniker": "src\\game\\private\\game\\base\\camera.cpp",
@@ -679,7 +770,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 42,
               "Title": "2Dhndlmanager.h",
               "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\lib\\2Dhndlmanager.h",
               "RelativeDocumentMoniker": "src\\game\\public\\lib\\2Dhndlmanager.h",
@@ -691,7 +782,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 44,
               "Title": "bgm_manager.cpp",
               "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\lib\\bgm_manager.cpp",
               "RelativeDocumentMoniker": "src\\game\\private\\lib\\bgm_manager.cpp",
@@ -703,7 +794,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 45,
               "Title": "2Dcollision.cpp",
               "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\lib\\2Dcollision.cpp",
               "RelativeDocumentMoniker": "src\\game\\private\\lib\\2Dcollision.cpp",
@@ -715,19 +806,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "collision.cpp",
-              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\lib\\collision.cpp",
-              "RelativeDocumentMoniker": "src\\game\\private\\lib\\collision.cpp",
-              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\lib\\collision.cpp",
-              "RelativeToolTip": "src\\game\\private\\lib\\collision.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-10T08:01:15.231Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 46,
               "Title": "easing.cpp",
               "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\lib\\2Ddirection\\easing\\easing.cpp",
               "RelativeDocumentMoniker": "src\\game\\private\\lib\\2Ddirection\\easing\\easing.cpp",
@@ -739,7 +818,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 47,
               "Title": "effekseer.cpp",
               "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\effekseer\\effekseer.cpp",
               "RelativeDocumentMoniker": "src\\game\\private\\effekseer\\effekseer.cpp",
@@ -751,7 +830,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 49,
               "Title": "map_manager.cpp",
               "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\manager\\map_manager.cpp",
               "RelativeDocumentMoniker": "src\\game\\private\\game\\manager\\map_manager.cpp",
@@ -763,7 +842,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 48,
               "Title": "scene_result.cpp",
               "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\system\\private\\scene\\scene_result.cpp",
               "RelativeDocumentMoniker": "src\\system\\private\\scene\\scene_result.cpp",
@@ -775,7 +854,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 50,
               "Title": "scene_select.cpp",
               "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\system\\private\\scene\\scene_select.cpp",
               "RelativeDocumentMoniker": "src\\system\\private\\scene\\scene_select.cpp",
@@ -787,31 +866,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "enemy_manager.cpp",
-              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\manager\\enemy_manager.cpp",
-              "RelativeDocumentMoniker": "src\\game\\private\\game\\manager\\enemy_manager.cpp",
-              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\private\\game\\manager\\enemy_manager.cpp",
-              "RelativeToolTip": "src\\game\\private\\game\\manager\\enemy_manager.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-13T05:35:19.524Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "enemy_manager.h",
-              "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\manager\\enemy_manager.h",
-              "RelativeDocumentMoniker": "src\\game\\public\\game\\manager\\enemy_manager.h",
-              "ToolTip": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\game\\manager\\enemy_manager.h",
-              "RelativeToolTip": "src\\game\\public\\game\\manager\\enemy_manager.h",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-13T05:35:34.088Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 51,
               "Title": "2Dcollosion.h",
               "DocumentMoniker": "C:\\Users\\2409421\\Desktop\\2Dgame\\2026_team_project_1\\src\\game\\public\\lib\\2Dcollosion.h",
               "RelativeDocumentMoniker": "src\\game\\public\\lib\\2Dcollosion.h",

@@ -147,4 +147,6 @@ public:
 	}
 
 	inline bool GetIsActive() const { return m_isActive; }
+
+	inline void SetIsActive(bool _isActive) { m_isActive = _isActive; }
 };

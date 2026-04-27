@@ -28,6 +28,7 @@ C:\Users\2409421\Desktop\2Dgame\2026_team_project_1\src\game\private\lib\rand.cp
 C:\Users\2409421\Desktop\2Dgame\2026_team_project_1\src\game\private\lib\score.cpp;C:\Users\2409421\Desktop\2Dgame\2026_team_project_1\2026_tea.3fbd4e00\x64\Debug\score.obj
 C:\Users\2409421\Desktop\2Dgame\2026_team_project_1\src\game\private\lib\se_manager .cpp;C:\Users\2409421\Desktop\2Dgame\2026_team_project_1\2026_tea.3fbd4e00\x64\Debug\se_manager .obj
 C:\Users\2409421\Desktop\2Dgame\2026_team_project_1\src\game\private\lib\Xinput.cpp;C:\Users\2409421\Desktop\2Dgame\2026_team_project_1\2026_tea.3fbd4e00\x64\Debug\Xinput.obj
+C:\Users\2409421\Desktop\2Dgame\2026_team_project_1\src\game\public\game\actor\enemy\enemy.cpp;C:\Users\2409421\Desktop\2Dgame\2026_team_project_1\2026_tea.3fbd4e00\x64\Debug\enemy.obj
 C:\Users\2409421\Desktop\2Dgame\2026_team_project_1\src\imgui\imgui.cpp;C:\Users\2409421\Desktop\2Dgame\2026_team_project_1\2026_tea.3fbd4e00\x64\Debug\imgui.obj
 C:\Users\2409421\Desktop\2Dgame\2026_team_project_1\src\imgui\imgui_draw.cpp;C:\Users\2409421\Desktop\2Dgame\2026_team_project_1\2026_tea.3fbd4e00\x64\Debug\imgui_draw.obj
 C:\Users\2409421\Desktop\2Dgame\2026_team_project_1\src\imgui\imgui_impl_dx11.cpp;C:\Users\2409421\Desktop\2Dgame\2026_team_project_1\2026_tea.3fbd4e00\x64\Debug\imgui_impl_dx11.obj

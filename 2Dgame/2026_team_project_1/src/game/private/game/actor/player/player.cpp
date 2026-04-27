@@ -5,6 +5,9 @@
 void C_PLAYER::Init()
 {
 	C_ACTOR_BASE::Init();
+	m_redius = 20.0f;
+	m_isActive = true;
+	m_objectType = C_OBJECT_BASE::OBJECT_TYPE_PLAYER;
 }
 
 //ì«çû

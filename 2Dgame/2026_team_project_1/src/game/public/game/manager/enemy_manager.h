@@ -11,6 +11,7 @@ private:
 	VECTOR m_targetPos;
 
 	int m_modelHndl;	//ƒ‚ƒfƒ‹ƒnƒ“ƒhƒ‹
+	int m_coolTime;
 
 public:
 

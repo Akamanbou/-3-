@@ -15,6 +15,7 @@ void C_SCENE_PLAY::Init()
 	m_playState = START;
 
 	c_playerManager.Init();
+	c_enemyManager.Init();
 
 	//ここよりも上に処理を書く 
 
@@ -32,12 +33,14 @@ void C_SCENE_PLAY::LoadAnSync()
 	//リソースの読み込み処理を書く
 	c_UIManager.LoadAnSync();
 	c_playerManager.LoadAnSync();
+	c_enemyManager.LoadAnSync();
 }
 
 void C_SCENE_PLAY::LoadSync()
 {
 	c_UIManager.LoadSync();
 	c_playerManager.LoadSync();
+	c_enemyManager.LoadSync();
 }
 
 void C_SCENE_PLAY::LoadWait()
@@ -79,6 +82,10 @@ void C_SCENE_PLAY::Step()
 
 	c_playerManager.Step();
 
+	c_enemyManager.Step();
+
+	c_collisionManager.CollisionCalc();
+
 	//ここよりも上に処理を書く
 
 	//遷移テスト用の処理
@@ -109,6 +116,8 @@ void C_SCENE_PLAY::Exit()
 	//ここで各インスタンスの終了処理を行う
 	c_UIManager.Exit();
 	c_playerManager.Exit();
+	c_enemyManager.Exit();
+	c_collisionManager.Exit();
 }
 
 void C_SCENE_PLAY::DrawLoading()
@@ -121,6 +130,7 @@ void C_SCENE_PLAY::DrawPlay()
 	//ここで描画処理を行う
 	c_UIManager.Draw();
 	c_playerManager.Draw();
+	c_enemyManager.Draw();
 	DrawString(16, 32, "play", GetColor(255, 255, 255));
 
 

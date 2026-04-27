@@ -130,6 +130,9 @@
     <Filter Include="src\game\public\game\actor\player">
       <UniqueIdentifier>{3e611a9f-84ee-415d-873a-05a79d63746e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\game\public\game\actor\enemy">
+      <UniqueIdentifier>{59a425ed-e17d-4951-b624-236a806f7198}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\common.h">
@@ -282,6 +285,9 @@
     <ClInclude Include="src\game\public\game\UI\play_back_ground.h">
       <Filter>src\game\public\game\UI</Filter>
     </ClInclude>
+    <ClInclude Include="src\game\public\game\actor\enemy\enemy.h">
+      <Filter>src\game\public\game\actor\enemy</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
@@ -424,6 +430,9 @@
     </ClCompile>
     <ClCompile Include="src\game\private\game\UI\play_back_ground.cpp">
       <Filter>src\game\private\game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\public\game\actor\enemy\enemy.cpp">
+      <Filter>src\game\private\game\actor\enemy</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

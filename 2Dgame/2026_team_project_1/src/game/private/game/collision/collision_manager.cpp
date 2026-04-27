@@ -17,7 +17,7 @@ void C_COLLISION_MANAGER::PlayerToEnemy(C_OBJECT_BASE* _player, C_OBJECT_BASE* _
 	if (C_2D_COLLOSION::CheckHitCircleToCircle2D(_player->GetPos(), _enemy->GetPos(),
 		_player->GetRedius(), _enemy->GetRedius()))
 	{
-
+		_enemy->SetIsActive(false);
 	}
 }
 
@@ -70,18 +70,8 @@ void C_COLLISION_MANAGER::CollisionCalc()
 			//コールバック関数
 			Calc[funkIndex]((*itr1), (*itr2));
 
-			//参照した要素の生存フラグが折れているならリストから削除する
-			if (!(*itr2)->GetIsActive())
-			{
-				m_objectPool.erase(itr2);
-			}
 		}
 
-		//参照した要素の生存フラグが折れているならリストから削除する
-		if (!(*itr1)->GetIsActive())
-		{
-			m_objectPool.erase(itr1);
-		}
 	}
 }
 

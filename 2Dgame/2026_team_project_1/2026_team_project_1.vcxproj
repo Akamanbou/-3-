@@ -157,6 +157,7 @@
   <ItemGroup>
     <ClInclude Include="src\common.h" />
     <ClInclude Include="src\game\public\effekseer\effekseer.h" />
+    <ClInclude Include="src\game\public\game\actor\enemy\enemy.h" />
     <ClInclude Include="src\game\public\game\actor\player\player.h" />
     <ClInclude Include="src\game\public\game\base\actor.h" />
     <ClInclude Include="src\game\public\game\base\camera.h" />
@@ -237,6 +238,7 @@
     <ClCompile Include="src\game\private\lib\score.cpp" />
     <ClCompile Include="src\game\private\lib\se_manager .cpp" />
     <ClCompile Include="src\game\private\lib\Xinput.cpp" />
+    <ClCompile Include="src\game\public\game\actor\enemy\enemy.cpp" />
     <ClCompile Include="src\imgui\imgui.cpp" />
     <ClCompile Include="src\imgui\imgui_draw.cpp" />
     <ClCompile Include="src\imgui\imgui_impl_dx11.cpp" />
