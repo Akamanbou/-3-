@@ -3,8 +3,7 @@
 
 constexpr float MOVE_SPEED = 10.0f;
 
-static const char* PLAYER_IMAGE_PATH[] = { "data/‘fŞˆê——/Idle.png",
-											"data/‘fŞˆê——/Run.png" };
+static const char* PLAYER_IMAGE_PATH[] = { "data/‘fŞˆê——/mmaame.png"};
 
 class C_PLAYER : public C_ACTOR_BASE
 {

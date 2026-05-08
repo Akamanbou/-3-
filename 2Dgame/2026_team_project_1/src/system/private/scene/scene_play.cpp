@@ -1,5 +1,6 @@
 #include "scene/scene_play.h"
 #include "lib/bgm_manager.h"
+#include"lib/score.h"
 
 C_SCENE_PLAY::~C_SCENE_PLAY()
 {
@@ -16,6 +17,7 @@ void C_SCENE_PLAY::Init()
 
 	c_playerManager.Init();
 	c_enemyManager.Init();
+	SCORE_DATA::Init();
 
 	//ここよりも上に処理を書く 
 
@@ -34,6 +36,7 @@ void C_SCENE_PLAY::LoadAnSync()
 	c_UIManager.LoadAnSync();
 	c_playerManager.LoadAnSync();
 	c_enemyManager.LoadAnSync();
+	SCORE_DATA::Load();
 }
 
 void C_SCENE_PLAY::LoadSync()
@@ -86,6 +89,14 @@ void C_SCENE_PLAY::Step()
 
 	c_collisionManager.CollisionCalc();
 
+	c_UIManager.Update();
+
+	c_playerManager.Update();
+
+	c_enemyManager.Update();
+
+	SCORE_DATA::Update();
+
 	//ここよりも上に処理を書く
 
 	//遷移テスト用の処理
@@ -118,6 +129,7 @@ void C_SCENE_PLAY::Exit()
 	c_playerManager.Exit();
 	c_enemyManager.Exit();
 	c_collisionManager.Exit();
+	SCORE_DATA::Exit();
 }
 
 void C_SCENE_PLAY::DrawLoading()
@@ -132,6 +144,6 @@ void C_SCENE_PLAY::DrawPlay()
 	c_playerManager.Draw();
 	c_enemyManager.Draw();
 	DrawString(16, 32, "play", GetColor(255, 255, 255));
-
+	SCORE_DATA::Draw(300, 100, 0);
 
 }

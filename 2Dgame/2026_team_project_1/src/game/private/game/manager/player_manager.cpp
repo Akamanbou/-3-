@@ -15,8 +15,7 @@ void C_PLAYER_MANAGER::Init()
 void C_PLAYER_MANAGER::LoadAnSync()
 {
 	C_2D_HNDL_MANAGER* instance = C_2D_HNDL_MANAGER::GetInstance();
-	instance->Load2DImage(PLAYER_IMAGE_PATH[0], 11, 11, 1, 32, 32);
-	instance->Load2DImage(PLAYER_IMAGE_PATH[1], 11, 11, 1, 32, 32);
+	instance->Load2DImage(PLAYER_IMAGE_PATH[0], 1,1, 1, 16, 16);
 }
 
 void C_PLAYER_MANAGER::LoadSync()

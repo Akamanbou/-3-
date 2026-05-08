@@ -1,5 +1,7 @@
 #include "game/collision/collision_manager.h"
 #include "lib/2Dcollosion.h"
+#include"lib/score.h"
+
 
 bool C_COLLISION_MANAGER::isHitFloor = false;
 
@@ -18,6 +20,7 @@ void C_COLLISION_MANAGER::PlayerToEnemy(C_OBJECT_BASE* _player, C_OBJECT_BASE* _
 		_player->GetRedius(), _enemy->GetRedius()))
 	{
 		_enemy->SetIsActive(false);
+		SCORE_DATA::Add(100, 0);
 	}
 }
 
@@ -30,7 +33,6 @@ void C_COLLISION_MANAGER::PlayerToItem(C_OBJECT_BASE* _player, C_OBJECT_BASE* _i
 	if (C_2D_COLLOSION::CheckHitCircleToCircle2D(_player->GetPos(), _item->GetPos(),
 		_player->GetRedius(), _item->GetRedius()))
 	{
-
 	}
 }
 

@@ -6,7 +6,7 @@ void C_ENEMY::Init()
 {
 	C_ACTOR_BASE::Init();
 	m_isActive = false;
-	m_redius = 20.0f;
+	m_redius = 50.0f;
 	m_objectType = C_OBJECT_BASE::OBJECT_TYPE_ENEMY;
 }
 

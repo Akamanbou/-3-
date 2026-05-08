@@ -2,7 +2,7 @@
 #pragma once
 #include "game/base/UI_object.h"
 
-static const char* PLAY_BACKGROUND_IMAGE_PATH = "data/graphic/Henry.png";
+static const char* PLAY_BACKGROUND_IMAGE_PATH = "data/graphic/Back.png";
 
 
 class C_PLAY_BACK_GROUND : public C_UI_OBJECT_BASE

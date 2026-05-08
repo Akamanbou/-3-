@@ -3,16 +3,16 @@
 
 // 定義関連=============================
 #define NUMBER (10)			// 読み込む画像「0」～「9」
-#define NUMBER_SIZE_X (16)	// 数字画像のサイズ　横
-#define NUMBER_SIZE_Y (32)	// 数字画像のサイズ　縦
-#define DIGIT_NUMBER (10)	// 表示可能な桁数(今回は99999がカンスト)
+#define NUMBER_SIZE_X (32)	// 数字画像のサイズ　横
+#define NUMBER_SIZE_Y (64)	// 数字画像のサイズ　縦
+#define DIGIT_NUMBER (5)	// 表示可能な桁数(今回は99999がカンスト)
 #define ADD_SCORE_SPD (10)	// 1フレームで加算されるスコア数
 
 #define START_POS_X (315)	// スコア表示開始位置　横
 #define START_POS_Y (120)	// スコア表示開始位置　縦
 
 // 画像のパス
-#define SCORE_GRAPH_PATH ("data/graphic/number/number16x32_01.png")
+#define SCORE_GRAPH_PATH ("data/graphic/number.png")
 // 効果音
 #define SCORE_SOUND_PATH ("data/sound/se2.mp3")
 
