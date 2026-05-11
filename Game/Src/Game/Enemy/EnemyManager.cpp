@@ -25,4 +25,5 @@ void EnemyManager::Init()
 // ƒ[ƒh
 void EnemyManager::Load()
 {
+
 }

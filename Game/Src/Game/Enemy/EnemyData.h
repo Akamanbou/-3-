@@ -1,5 +1,6 @@
 #pragma once
 #include"EnemyBase.h"
+#include"Enemy.h"
 #include<vector>
 #include<DxLib.h>
 

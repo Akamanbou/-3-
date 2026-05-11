@@ -9,14 +9,19 @@ const vector<EnemyData>& EnemyData::GetEnemyData()
 	ReadData tmp = { 0 };
 
 	// ‚O‚É‚È‚é‚Ü‚Å‰ñ‚è‘±‚¯‚é
-	while (FileRead_scanf(hndl, "%c,%f,%f,%f,%d,%d,%d", &tmp.m_Type, &tmp.m_Pos.x, &tmp.m_Pos.y, &tmp.m_Pos.z,
+	while (FileRead_scanf(hndl, "%d,%f,%f,%f,%d,%d,%d", &tmp.m_Type, &tmp.m_Pos.x, &tmp.m_Pos.y, &tmp.m_Pos.z,
 		&tmp.m_Hp, &tmp.m_Power, &tmp.m_Exp) != EOF) 
 	{
 		EnemyBase* temp = nullptr;
 
-		m_Base.SetPosition(tmp.m_Pos);
-		m_Base.SetHp(tmp.m_Hp);
-		m_Base.SetPower(tmp.m_Power);
-		m_Base.SetExp(tmp.m_Exp);
+		switch (tmp.m_Type)
+		{
+		case 0:
+			temp = new Enemy(); 
+			break;
+		}
+		temp->SetHp(tmp.m_Hp);
+		temp->SetPower(tmp.m_Power);
+		temp->SetExp(tmp.m_Exp);
 	}
 }
