@@ -36,4 +36,8 @@ public:
 	void Step();
 	// •`‰æ
 	void Draw();
+
+	int SetHp(int hp) { m_Hp = hp; }
+	int SetPower(int power) { m_Power = power; }
+	int SetExp(int exp) { m_Exp = exp; }
 };
