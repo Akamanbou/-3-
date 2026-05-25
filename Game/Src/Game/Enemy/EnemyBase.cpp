@@ -22,6 +22,7 @@ EnemyBase::EnemyBase()
 void EnemyBase::Init()
 {
 	m_HpHndl = -1;
+	m_HpBackHndl = -1;
 
 	m_State = Idel;
 	m_isActive = true;
@@ -35,13 +36,15 @@ void EnemyBase::Init()
 
 	m_Len = 0.0f;
 
+	m_MaxHp = 10;
+
 	m_Attack = false;
 }
 
 //----------------------
 // ロード
 //----------------------
-void EnemyBase::Load(int originhndl,int hphndl)
+void EnemyBase::Load(int originhndl)
 {
 	if (m_Hndl == -1)
 	{
@@ -50,7 +53,11 @@ void EnemyBase::Load(int originhndl,int hphndl)
 	}
 	if (m_HpHndl == -1)
 	{
-		m_HpHndl = MV1DuplicateModel(hphndl);
+		m_HpHndl = LoadGraph(HP_BAR_IMAGE);
+	}
+	if (m_HpBackHndl == -1)
+	{
+		m_HpBackHndl = LoadGraph(HP_BAR_BACK_IMAGE);
 	}
 }
 
@@ -136,12 +143,23 @@ void EnemyBase::DrawHpBar()
 {
 	if (m_isActive)
 	{
-		VECTOR Pos = GetCenter();
-		Pos.y += 50.0f;
-
-		SetUseZBuffer3D(TRUE);
-		SetWriteZBuffer3D(TRUE);
-		DrawBillboard3D(Pos, 0.5f, 0.1f, 0.0f, 0.0f, m_HpHndl, TRUE);
+		VECTOR pos = m_Pos;
+		// 高さを上げる
+		pos.y += 30.0f;
+		float Rate = (float)m_Hp / (float)m_MaxHp; // 現在のHPが最大HPの何％かを求める
+		float Width = 50.0f * Rate; // 実際のHPバーの長さを求める（50は最大HPの時のバーの長さ）
+		// 下地描画
+		DrawModiBillboard3D(pos, -25.0f, -3.0f, // 左上
+								  25.0f, -3.0f, // 右上
+								  25.0f, 3.0f,	// 右下
+								 -25.0f, -3.0f,	// 左下
+								  m_HpBackHndl, TRUE);
+		// Hpバー描画
+		DrawModiBillboard3D(pos, -25.0f, -3.0f,			// 左上
+			                     -25.0f + Width, -3.0f, // 右上
+			                     -25.0f + Width, 3.0f, 	// 右下
+			                     -25.0f, 3.0f, 			// 左下
+			                     m_HpHndl, TRUE);
 	}
 }
 

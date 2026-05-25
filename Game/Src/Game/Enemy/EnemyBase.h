@@ -3,6 +3,8 @@
 #include"../Common.h"
 
 static const char HP_BAR_IMAGE[] = { "../Data/Image/HpBar.png" };
+static const char HP_BAR_BACK_IMAGE[] = { "../Data/Image/HpBarBack.png" };
+
 static const int WALK_SPEED = 1.0f;
 static const float IDEL_WALK_SPEED = 0.5f;
 // UŒ‚•
@@ -20,12 +22,14 @@ public:
 private:
 	EnemyState m_State;
 	int m_HpHndl;
+	int m_HpBackHndl;
 
 	int m_Type;
 	int m_Hp;
 	int m_Power;
 	int m_Exp;
 	int m_MoveDelay; // “®‚«‚É’x‰„‚ğ‚©‚¯‚é•Ï”
+	int m_MaxHp;
 
 	VECTOR m_AtPos;
 	int m_AtTime;
@@ -48,7 +52,7 @@ public:
 
 	void Init();
 	// ƒ[ƒh
-	void Load(int originhndl,int hphandl);
+	void Load(int originhndl);
 	// ‘Sˆ—
 	void Step(VECTOR pos);
 	// •`‰æ
