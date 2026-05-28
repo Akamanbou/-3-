@@ -157,6 +157,7 @@
     <ClCompile Include="..\Src\Lib\Input\PadInput.cpp" />
     <ClCompile Include="..\Src\Lib\MyMath\MyMath.cpp" />
     <ClCompile Include="..\Src\Lib\Object\Object.cpp" />
+    <ClCompile Include="..\Src\Lib\system\SoundManager.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -182,6 +183,7 @@
     <ClInclude Include="..\Src\Lib\Input\PadInput.h" />
     <ClInclude Include="..\Src\Lib\MyMath\MyMath.h" />
     <ClInclude Include="..\Src\Lib\Object\Object.h" />
+    <ClInclude Include="..\Src\Lib\system\SoundManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

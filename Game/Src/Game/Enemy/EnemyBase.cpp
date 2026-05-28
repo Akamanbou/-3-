@@ -36,7 +36,7 @@ void EnemyBase::Init()
 
 	m_Len = 0.0f;
 
-	m_MaxHp = 10;
+	m_Hp = m_MaxHp;
 
 	m_Attack = false;
 }
@@ -74,21 +74,19 @@ void EnemyBase::Step(VECTOR pos)
 	// 毎フレーム引いていく
 	m_MoveDelay--;
 
-	// プレイヤーとの距離を計算する
-	float Len = 0.0f;
 
 	// 距離の計算
-	Len = (pos.x - m_Pos.x) * (pos.x - m_Pos.x) + (pos.z - m_Pos.z) * (pos.z - m_Pos.z); // それぞれの 終点-始点 を計算する
-	Len = sqrtf(Len); // √をとってフロート型にするためにsqrtfをする
+	m_Len = (pos.x - m_Pos.x) * (pos.x - m_Pos.x) + (pos.z - m_Pos.z) * (pos.z - m_Pos.z); // それぞれの 終点-始点 を計算する
+	m_Len = sqrtf(m_Len); // √をとってフロート型にするためにsqrtfをする
 	AttackMove(pos);
 
 	// 一定距離以内に来たらプレイヤーに近づいてくる
-	if (Len <= 100)
+	if (m_Len <= 100)
 		m_State = Chase;
 	else
 		m_State = Idel;
 
-	if (Len <= ENE_ATTACK)
+	if (m_Len <= ENE_ATTACK)
 	{
 		m_State = Attack;
 	}
@@ -114,7 +112,7 @@ void EnemyBase::Step(VECTOR pos)
 			m_Attack = true;
 			m_AtCoolTime = 0;
 		}
-		if (Len >= ENE_ATTACK)
+		if (m_Len >= ENE_ATTACK)
 		{
 			m_State = Chase;
 		}
@@ -133,6 +131,7 @@ void EnemyBase::Draw()
 	{
 		MV1DrawModel(m_Hndl);
 		DrawSphere3D(GetCenter(), 10.0f, m_Radius, RED, GetColor(255, 0, 255), true);
+		DrawHpBar();
 	}
 }
 
@@ -141,7 +140,7 @@ void EnemyBase::Draw()
 //----------------------
 void EnemyBase::DrawHpBar()
 {
-	if (m_isActive)
+	if (m_isActive&&m_Len <= 400.0f)
 	{
 		VECTOR pos = m_Pos;
 		// 高さを上げる
@@ -152,7 +151,7 @@ void EnemyBase::DrawHpBar()
 		DrawModiBillboard3D(pos, -25.0f, -3.0f, // 左上
 								  25.0f, -3.0f, // 右上
 								  25.0f, 3.0f,	// 右下
-								 -25.0f, -3.0f,	// 左下
+								 -25.0f, 3.0f,	// 左下
 								  m_HpBackHndl, TRUE);
 		// Hpバー描画
 		DrawModiBillboard3D(pos, -25.0f, -3.0f,			// 左上

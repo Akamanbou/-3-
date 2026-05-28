@@ -49,6 +49,7 @@ void EnemyManager::Load()
 			Hndl = MV1LoadModel(MODEL_PATH[e->GetType()]);
 			break;
 		}
+		e->Init();
 		e->Load(Hndl);
 	}
 	MV1DeleteModel(Hndl);
@@ -70,7 +71,6 @@ void EnemyManager::Draw()
 	for (auto e : m_Data->GetEnemyData())
 	{
 		e->Draw();
-		e->DrawHpBar();
 	}
 }
 

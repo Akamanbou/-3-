@@ -45,6 +45,8 @@ private:
 
 	void PlRotAns(VECTOR pos);
 
+	void DrawHpBar();
+
 public:
 	// コンストラクタ・デストラクタ
 	EnemyBase();
@@ -57,7 +59,6 @@ public:
 	void Step(VECTOR pos);
 	// 描画
 	void Draw();
-	void DrawHpBar();
 
 	bool Request();
 	int Death(); // 死亡時に行う処理
@@ -75,6 +76,7 @@ public:
 
 	void SetType(int type) { m_Type = type; }
 	void SetHp(int hp) { m_Hp = hp; }
+	void SetMaxHp(int hp) { m_MaxHp = hp; }
 	void SetPower(int power) { m_Power = power; }
 	void SetExp(int exp) { m_Exp = exp; }
 
