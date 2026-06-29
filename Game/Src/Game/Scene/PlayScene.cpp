@@ -32,15 +32,38 @@ int PlayScene::Loop()
 		break;
 	case PlayScene::LOAD:
 		Load();
-		m_Sound.Play(SoundManager::SOUND_BGM, DX_PLAYTYPE_LOOP, TRUE);
+		//SoundManager::Play(SoundManager::SOUND_BGM, DX_PLAYTYPE_LOOP);
 		m_State = MAIN; // 次へ進む
 		break;
 	case PlayScene::MAIN:
 		Step();
 		break;
+	case PlayScene::MENU:
+	{
+		// ローカル変数に入れる
+		int Return = m_Menu.Step();
+
+		// ０だったら1を返して状態をINITにする
+		if (Return == 0)
+		{
+			Result = 1;
+			m_State = INIT;
+		}
+		// ２だったら２を返す
+		if (Return == 2)
+		{
+			return 2;
+		}
+		// メニュー画面で
+		if (CInput::IsPush(KEY_TAB))
+		{
+			m_State = MAIN;
+		}
+		break;
+	}
 	case PlayScene::END:
 		Exit();
-		m_Sound.AllStop();
+		SoundManager::AllStop();
 		Result = 0;
 		m_Enemy.ReStart(); // 敵のリスタート時の初期化
 		m_State = INIT; // 次へ進む
@@ -65,6 +88,8 @@ void PlayScene::Draw()
 	m_Enemy.Draw();
 	m_Player.Draw();
 
+	if (m_State == MENU)
+		m_Menu.Draw();
 }
 
 //-----------------------------------
@@ -76,7 +101,7 @@ void PlayScene::Init()
 	m_Camera.Init();
 	m_Field.Init();
 	m_Enemy.Init();
-	m_Sound.Init();
+	m_Menu.Init();
 }
 
 //-----------------------------------
@@ -87,7 +112,7 @@ void PlayScene::Load()
 	m_Player.Load();
 	m_Field.Load();
 	m_Enemy.Load();
-	m_Sound.Load();
+	m_Menu.Load();
 }
 
 //-----------------------------------
@@ -110,6 +135,11 @@ void PlayScene::Step()
 	if (!m_Player.IsActive())
 		m_State = END;
 
+	if (CInput::IsPush(KEY_TAB))
+	{
+		m_State = MENU;
+	}
+
 	// 更新処理
 	m_Player.Update();
 	m_Camera.Updata();
@@ -125,5 +155,5 @@ void PlayScene::Exit()
 	m_Player.Exit();
 	m_Field.Exit();
 	m_Enemy.Exit();
-	m_Sound.Exit();
+	m_Menu.Exit();
 }

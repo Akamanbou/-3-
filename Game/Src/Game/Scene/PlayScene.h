@@ -3,6 +3,7 @@
 #include"../Enemy/EnemyManager.h"
 #include"../Camera/CameraManager.h"
 #include"../Field/Field.h"
+#include"../Menu/Menu.h"
 #include"../../Lib/Collision/CollisionManager.h"
 #include"../../Lib/system/SoundManager.h"
 
@@ -13,6 +14,7 @@ private:
 		INIT,
 		LOAD,
 		MAIN,
+		MENU,
 		END,
 
 		PLAY_SCENE_NUM
@@ -26,7 +28,7 @@ private:
 	CameraManager m_Camera; // カメラの処理
 	Field m_Field; // フィールドの処理
 	EnemyManager m_Enemy; // 敵の処理
-	SoundManager m_Sound;
+	Menu m_Menu;
 
 public:
 	// コンストラクタ・デストラクタ

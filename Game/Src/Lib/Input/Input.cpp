@@ -49,7 +49,8 @@ void CInput::StepInput()
 		current_key_state |= KEY_D;
 	if (CheckHitKey(KEY_INPUT_F) == 1)
 		current_key_state |= KEY_F;
-
+	if (CheckHitKey(KEY_INPUT_TAB) == 1)
+		current_key_state |= KEY_TAB;
 
 
 }

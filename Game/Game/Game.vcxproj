@@ -145,6 +145,7 @@
     <ClCompile Include="..\Src\Game\Enemy\EnemyData.cpp" />
     <ClCompile Include="..\Src\Game\Enemy\EnemyManager.cpp" />
     <ClCompile Include="..\Src\Game\Field\Field.cpp" />
+    <ClCompile Include="..\Src\Game\Menu\Menu.cpp" />
     <ClCompile Include="..\Src\Game\Player\Player.cpp" />
     <ClCompile Include="..\Src\Game\Scene\PlayScene.cpp" />
     <ClCompile Include="..\Src\Game\Scene\ResultScene.cpp" />
@@ -170,6 +171,7 @@
     <ClInclude Include="..\Src\Game\Enemy\EnemyData.h" />
     <ClInclude Include="..\Src\Game\Enemy\EnemyManager.h" />
     <ClInclude Include="..\Src\Game\Field\Field.h" />
+    <ClInclude Include="..\Src\Game\Menu\Menu.h" />
     <ClInclude Include="..\Src\Game\Path.h" />
     <ClInclude Include="..\Src\Game\Player\Player.h" />
     <ClInclude Include="..\Src\Game\Scene\PlayScene.h" />

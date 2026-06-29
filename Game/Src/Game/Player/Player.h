@@ -4,6 +4,7 @@
 #include"../../Lib/Object/Object.h"
 #include"../../Lib/MyMath/MyMath.h"
 #include"../../Lib/input/Input.h"
+#include"../../Lib/system/SoundManager.h"
 #include"../Camera/CameraManager.h"
 
 

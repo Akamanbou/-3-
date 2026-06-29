@@ -1,9 +1,10 @@
 #pragma once
 #include<DxLib.h>
 #include<math.h>
+//#define DEBUG
 
 static const int  WINDOW_SIZE_X = 1280; // 画面サイズX
-static const int WINDOW_SIZE_Y = 640;  // 画面サイズY
+static const int WINDOW_SIZE_Y = 720;  // 画面サイズY
 static const VECTOR ZERO = { 0.0f,0.0f,0.0f }; // VECTOR型のゼロ
 static const float GRAVITY = 0.1f; // 重力
 

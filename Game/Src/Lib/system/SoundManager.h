@@ -8,6 +8,7 @@ class SoundManager {
 public:
 	enum tagSoundID {
 		SOUND_BGM,
+		SE_ATTACK,
 
 		SOUND_NUM
 	};

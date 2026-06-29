@@ -9,6 +9,13 @@ SceneManager::SceneManager()
 	CInput::InitInput();
 	CGamePad::InitGamePad();
 	CGamePad::GetPadNumState();
+	SoundManager::Init();
+	SoundManager::Load();
+}
+
+SceneManager::~SceneManager()
+{
+	SoundManager::Exit();
 }
 
 //-----------------------------------
@@ -31,19 +38,34 @@ int SceneManager::Loop()
 		break;
 		// タイトル
 	case SceneManager::TITLE:
-		m_Title.Loop();
-		// 左クリックをするか、Bボタンを押したらゲームへ進む
-		if (CInput::IsPush(MOUSE_LEFT) || CGamePad::IsPadPush(DX_INPUT_PAD1, BUTTON_B))
+		if (m_Title.Loop() == 0)
 			m_SceneID = GAME;
 		break;
 		// メインゲーム
 	case SceneManager::GAME:
-		// ループが終わったら次へ
-		// 左クリックをするか、Bボタンを押したらゲームへ進む
-		if (m_Play.Loop() != -1)
+	{
+		// ローカル変数に入れる
+		int Play = m_Play.Loop();
+
+		// ０だったらリザルトに行く
+		if (Play == 0)
+		{
 			m_SceneID = RESULT;
+		}
+		// １だったらタイトルに行く
+		if (Play == 1)
+		{
+			m_SceneID = TITLE;
+		}
+		// 2だったら終了
+		if (Play == 2)
+		{
+			return 0;
+		}
+
 		break;
-		// リザルト
+	}
+	// リザルト
 	case SceneManager::RESULT:
 		m_Result.Loop();
 		// 左クリックをするか、Bボタンを押したらInitへ進む

@@ -11,6 +11,7 @@ void SoundManager::Init() {
 void SoundManager::Load() {
 	const char* filePath[SOUND_NUM] = {
 		"../Data/Bgm/Spiki.mp3",
+		"../Data/Bgm/Attack.mp3",
 	};
 	for (int i = 0; i < SOUND_NUM; i++)
 	{
@@ -18,7 +19,7 @@ void SoundManager::Load() {
 
 		m_hndl.push_back(hndl);
 		
-		ChangeVolumeSoundMem(120,m_hndl[i]);
+		ChangeVolumeSoundMem(100,m_hndl[i]);
 	}
 }
 void SoundManager::Exit() {

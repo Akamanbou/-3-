@@ -52,6 +52,9 @@
     <Filter Include="ソース ファイル\Lib\System">
       <UniqueIdentifier>{a2c36c38-98c9-40a9-99d5-272281475c23}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\Game\Menu">
+      <UniqueIdentifier>{50159c23-b565-4533-914b-286ce65964c8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -119,6 +122,9 @@
     </ClCompile>
     <ClCompile Include="..\Src\Lib\system\SoundManager.cpp">
       <Filter>ソース ファイル\Lib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\Menu\Menu.cpp">
+      <Filter>ソース ファイル\Game\Menu</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -190,6 +196,9 @@
     </ClInclude>
     <ClInclude Include="..\Src\Lib\system\SoundManager.h">
       <Filter>ソース ファイル\Lib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\Menu\Menu.h">
+      <Filter>ソース ファイル\Game\Menu</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

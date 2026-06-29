@@ -32,7 +32,7 @@ void Player::Init()
 	m_State = NormalState;
 
 	m_Level = 1;
-	m_Power = 5;
+	m_Power = 2;
 	m_Hp = 50;
 	m_MaxHp = 50;
 	m_WantExp = 20;
@@ -86,7 +86,7 @@ void Player::Step(CameraManager& camera)
 	m_AtPos = m_Pos;
 
 	m_AtCoolTime++;
-	if (CInput::IsPush(MOUSE_RIGHT) && m_AtCoolTime >= 60)
+	if (CInput::IsPush(MOUSE_LEFT) && m_AtCoolTime >= 60)
 		m_State = AttackState;
 
 	switch (m_State)
@@ -102,7 +102,10 @@ void Player::Step(CameraManager& camera)
 		Move(camera);
 		PadMove(camera);
 		if (m_AtTime < PL_AT_TIME)
+		{
 			Attack();
+			SoundManager::Play(SoundManager::SE_ATTACK, DX_PLAYTYPE_BACK);
+		}
 		else
 		{
 			m_AtCoolTime = 0;
@@ -313,6 +316,9 @@ void Player::Draw()
 {
 	//MV1DrawModel(m_Hndl);
 
+#ifdef DEBUG
+
+
 	DrawFormatString(20, 120, RED, "%.2f,%.2f,%.2f", m_Pos.x, m_Pos.y, m_Pos.z);
 	if (m_isHitGround)
 	{
@@ -321,23 +327,21 @@ void Player::Draw()
 	else
 		DrawFormatString(20, 140, RED, "FALSE");
 
-	if (CInput::IsPush(MOUSE_RIGHT) && m_AtCoolTime >= 60)
-		DrawSphere3D(m_AtPos, m_Radius, 16, RED, RED, FALSE);
-
 	DrawFormatString(20, 160, RED, "%.2f,%.2f,%.2f", m_AtPos.x, m_AtPos.y, m_AtPos.z);
 	DrawFormatString(20, 180, RED, "%d", m_Level);
 	DrawFormatString(20, 200, RED, "%d", m_Power);
+#endif // DEBUG
 
 	float ExpBar = (BAR_RIGHT - BAR_LEFT);
 	ExpBar = ExpBar / m_WantExp;
 	ExpBar = ExpBar * m_NowExp + BAR_LEFT;
 	DrawBox(BAR_LEFT - 4, BAR_TOP - 4, BAR_RIGHT + 4, BAR_BOTTOM + 4, WHITE, true);
-	DrawBox(BAR_LEFT, BAR_TOP, (int)ExpBar, BAR_BOTTOM, YELLOW, true);
+	DrawBox(BAR_LEFT, BAR_TOP, (int)ExpBar, BAR_BOTTOM, BLUE, true);
 
 	float HpBar = (BAR_RIGHT - BAR_LEFT);
 	HpBar = HpBar / m_MaxHp;
 	HpBar = HpBar * m_Hp + BAR_LEFT;
-	DrawBox(BAR_LEFT - 4, BAR_TOP +46, BAR_RIGHT + 4, BAR_BOTTOM + 54, WHITE, true);
+	DrawBox(BAR_LEFT - 4, BAR_TOP + 46, BAR_RIGHT + 4, BAR_BOTTOM + 54, WHITE, true);
 	DrawBox(BAR_LEFT, BAR_TOP + 50, (int)HpBar, BAR_BOTTOM + 50, GetColor(0, 255, 0), true);
 
 }
@@ -359,8 +363,10 @@ void Player::LevelUp()
 	{
 		m_Level += 1;
 		m_NowExp -= m_WantExp;
+		m_MaxHp += 10;
+		m_Hp += 5;
 		m_WantExp += 20;
-		m_Power += 5;
+		m_Power += 2;
 	}
 }
 

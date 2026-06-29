@@ -6,6 +6,7 @@ C:\Users\2409421\Desktop\Game\Src\Game\Enemy\EnemyBase.cpp;C:\Users\2409421\Desk
 C:\Users\2409421\Desktop\Game\Src\Game\Enemy\EnemyData.cpp;C:\Users\2409421\Desktop\Game\Game\x64\Debug\EnemyData.obj
 C:\Users\2409421\Desktop\Game\Src\Game\Enemy\EnemyManager.cpp;C:\Users\2409421\Desktop\Game\Game\x64\Debug\EnemyManager.obj
 C:\Users\2409421\Desktop\Game\Src\Game\Field\Field.cpp;C:\Users\2409421\Desktop\Game\Game\x64\Debug\Field.obj
+C:\Users\2409421\Desktop\Game\Src\Game\Menu\Menu.cpp;C:\Users\2409421\Desktop\Game\Game\x64\Debug\Menu.obj
 C:\Users\2409421\Desktop\Game\Src\Game\Player\Player.cpp;C:\Users\2409421\Desktop\Game\Game\x64\Debug\Player.obj
 C:\Users\2409421\Desktop\Game\Src\Game\Scene\PlayScene.cpp;C:\Users\2409421\Desktop\Game\Game\x64\Debug\PlayScene.obj
 C:\Users\2409421\Desktop\Game\Src\Game\Scene\ResultScene.cpp;C:\Users\2409421\Desktop\Game\Game\x64\Debug\ResultScene.obj
