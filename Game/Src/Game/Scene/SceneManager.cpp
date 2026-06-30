@@ -11,6 +11,7 @@ SceneManager::SceneManager()
 	CGamePad::GetPadNumState();
 	SoundManager::Init();
 	SoundManager::Load();
+	CFade::InitFade();
 }
 
 SceneManager::~SceneManager()
@@ -55,7 +56,8 @@ int SceneManager::Loop()
 		// １だったらタイトルに行く
 		if (Play == 1)
 		{
-			m_SceneID = TITLE;
+			if (CFade::IsEndFadeOut())
+				m_SceneID = TITLE;
 		}
 		// 2だったら終了
 		if (Play == 2)
@@ -73,7 +75,7 @@ int SceneManager::Loop()
 			m_SceneID = INIT;
 		break;
 	}
-
+	CFade::StepFade();
 	// 本編が終了したかどうかを外部に伝える
 	return Result;
 }
@@ -98,4 +100,5 @@ void SceneManager::Draw()
 		m_Result.Draw();
 		break;
 	}
+	CFade::DrawFade();
 }

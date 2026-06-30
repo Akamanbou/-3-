@@ -33,7 +33,14 @@ int PlayScene::Loop()
 	case PlayScene::LOAD:
 		Load();
 		//SoundManager::Play(SoundManager::SOUND_BGM, DX_PLAYTYPE_LOOP);
-		m_State = MAIN; // éüÇ÷êiÇﬁ
+		CFade::RequestFadeIn();
+		m_State = START_WAIT; // éüÇ÷êiÇﬁ
+		break;
+	case PlayScene::START_WAIT:
+		if (CFade::IsEndFadeIn())
+		{
+			m_State = MAIN;
+		}
 		break;
 	case PlayScene::MAIN:
 		Step();
@@ -61,6 +68,12 @@ int PlayScene::Loop()
 		}
 		break;
 	}
+	case PlayScene::END_WAIT:
+		if (CFade::IsEndFadeOut())
+		{
+			m_State = END;
+		}
+		break;
 	case PlayScene::END:
 		Exit();
 		SoundManager::AllStop();
@@ -133,7 +146,10 @@ void PlayScene::Step()
 	m_Collision.CheckHitEnemyToEnemyPick(m_Enemy, m_Player);
 
 	if (!m_Player.IsActive())
+	{
+		CFade::RequestFadeOut();
 		m_State = END;
+	}
 
 	if (CInput::IsPush(KEY_TAB))
 	{

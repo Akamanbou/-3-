@@ -3,6 +3,7 @@
 #include"../Common.h"
 #include"../../Lib/Input/Input.h"
 #include"../../Lib/Input/PadInput.h"
+#include"../../Lib/Fade/Fade.h"
 
 static const char TITLE_IMAGE[] = { "../Data/Image/RPGTitle.png" };
 
@@ -13,7 +14,9 @@ private:
 	enum tagScene {
 		INIT,
 		LOAD,
+		START_WAIT,
 		MAIN,
+		END_WAIT,
 		END,
 
 		TITLE_SCENE_NUM

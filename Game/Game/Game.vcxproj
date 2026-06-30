@@ -154,6 +154,7 @@
     <ClCompile Include="..\Src\Lib\Collision\Collision.cpp" />
     <ClCompile Include="..\Src\Lib\Collision\CollisionManager.cpp" />
     <ClCompile Include="..\Src\Lib\Debug\Debug.cpp" />
+    <ClCompile Include="..\Src\Lib\Fade\Fade.cpp" />
     <ClCompile Include="..\Src\Lib\Input\Input.cpp" />
     <ClCompile Include="..\Src\Lib\Input\PadInput.cpp" />
     <ClCompile Include="..\Src\Lib\MyMath\MyMath.cpp" />
@@ -181,6 +182,7 @@
     <ClInclude Include="..\Src\Lib\Collision\Collision.h" />
     <ClInclude Include="..\Src\Lib\Collision\CollisionManager.h" />
     <ClInclude Include="..\Src\Lib\Debug\Debug.h" />
+    <ClInclude Include="..\Src\Lib\Fade\Fade.h" />
     <ClInclude Include="..\Src\Lib\Input\Input.h" />
     <ClInclude Include="..\Src\Lib\Input\PadInput.h" />
     <ClInclude Include="..\Src\Lib\MyMath\MyMath.h" />

@@ -55,6 +55,9 @@
     <Filter Include="ソース ファイル\Game\Menu">
       <UniqueIdentifier>{50159c23-b565-4533-914b-286ce65964c8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\Lib\Fade">
+      <UniqueIdentifier>{d4b8f23c-8af8-4c67-b72a-07b51fefff83}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -125,6 +128,9 @@
     </ClCompile>
     <ClCompile Include="..\Src\Game\Menu\Menu.cpp">
       <Filter>ソース ファイル\Game\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Lib\Fade\Fade.cpp">
+      <Filter>ソース ファイル\Lib\Fade</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -199,6 +205,9 @@
     </ClInclude>
     <ClInclude Include="..\Src\Game\Menu\Menu.h">
       <Filter>ソース ファイル\Game\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Lib\Fade\Fade.h">
+      <Filter>ソース ファイル\Lib\Fade</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

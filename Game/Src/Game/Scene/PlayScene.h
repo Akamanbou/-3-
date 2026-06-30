@@ -6,6 +6,7 @@
 #include"../Menu/Menu.h"
 #include"../../Lib/Collision/CollisionManager.h"
 #include"../../Lib/system/SoundManager.h"
+#include"../../Lib/Fade/Fade.h"
 
 class PlayScene
 {
@@ -13,8 +14,10 @@ private:
 	enum tagScene {
 		INIT,
 		LOAD,
+		START_WAIT,
 		MAIN,
 		MENU,
+		END_WAIT,
 		END,
 
 		PLAY_SCENE_NUM

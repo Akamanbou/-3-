@@ -1,6 +1,7 @@
 #pragma once
 #include<DxLib.h>
 #include"../Common.h"
+#include"../../Lib/Fade/Fade.h"
 
 class ResultScene
 {
@@ -8,7 +9,9 @@ private:
 	enum tagScene {
 		INIT,
 		LOAD,
+		START_WAIT,
 		MAIN,
+		END_WAIT,
 		END,
 
 		RESULT_SCENE_NUM

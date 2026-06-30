@@ -32,11 +32,23 @@ int ResultScene::Loop()
 		break;
 	case ResultScene::LOAD:
 		Load();
-		m_State = MAIN; // 次へ進む
+		m_State = START_WAIT; // 次へ進む
+		break;
+	case ResultScene::START_WAIT:
+		if (CFade::IsEndFadeIn())
+		{
+			m_State = MAIN;
+		}
 		break;
 	case ResultScene::MAIN:
 		Step();
-		m_State = END; // 次へ進む
+		m_State = END_WAIT; // 次へ進む
+		break;
+	case ResultScene::END_WAIT:
+		if (CFade::IsEndFadeOut())
+		{
+			m_State = END;
+		}
 		break;
 	case ResultScene::END:
 		Exit();

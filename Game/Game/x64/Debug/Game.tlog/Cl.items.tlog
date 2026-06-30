@@ -15,6 +15,7 @@ C:\Users\2409421\Desktop\Game\Src\Game\Scene\TitleScene.cpp;C:\Users\2409421\Des
 C:\Users\2409421\Desktop\Game\Src\Lib\Collision\Collision.cpp;C:\Users\2409421\Desktop\Game\Game\x64\Debug\Collision.obj
 C:\Users\2409421\Desktop\Game\Src\Lib\Collision\CollisionManager.cpp;C:\Users\2409421\Desktop\Game\Game\x64\Debug\CollisionManager.obj
 C:\Users\2409421\Desktop\Game\Src\Lib\Debug\Debug.cpp;C:\Users\2409421\Desktop\Game\Game\x64\Debug\Debug.obj
+C:\Users\2409421\Desktop\Game\Src\Lib\Fade\Fade.cpp;C:\Users\2409421\Desktop\Game\Game\x64\Debug\Fade.obj
 C:\Users\2409421\Desktop\Game\Src\Lib\Input\Input.cpp;C:\Users\2409421\Desktop\Game\Game\x64\Debug\Input.obj
 C:\Users\2409421\Desktop\Game\Src\Lib\Input\PadInput.cpp;C:\Users\2409421\Desktop\Game\Game\x64\Debug\PadInput.obj
 C:\Users\2409421\Desktop\Game\Src\Lib\MyMath\MyMath.cpp;C:\Users\2409421\Desktop\Game\Game\x64\Debug\MyMath.obj

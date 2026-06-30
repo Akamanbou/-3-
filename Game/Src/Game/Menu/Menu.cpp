@@ -81,14 +81,14 @@ void Menu::Select()
 {
 	if (m_Select == 0)
 	{
-		m_Pos = { WINDOW_SIZE_X / 2 - 250,317.0f,0.0f };
+		m_Pos = { WINDOW_SIZE_X / 2 - 270,370.0f,0.0f };
 	}
 	if (m_Select == 1)
 	{
-		m_Pos = { WINDOW_SIZE_X / 2 - 250,467.0f,0.0f };
+		m_Pos = { WINDOW_SIZE_X / 2 - 270,480.0f,0.0f };
 	}
 	if (m_Select == 2)
 	{
-		m_Pos = { WINDOW_SIZE_X / 2 - 250,597.0f,0.0f };
+		m_Pos = { WINDOW_SIZE_X / 2 - 270,590.0f,0.0f };
 	}
 }

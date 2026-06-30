@@ -32,13 +32,29 @@ int TitleScene::Loop()
 		break;
 	case TitleScene::LOAD:
 		Load();
-		m_State = MAIN; // 次へ進む
+		m_State = START_WAIT; // 次へ進む
 		break;
+	case TitleScene::START_WAIT:
+		if (CFade::IsEndFadeIn())
+		{
+			m_State = MAIN;
+		}
+		else
+			break;
 	case TitleScene::MAIN:
-		Step();
 		// 左クリックをするか、Bボタンを押したらゲームへ進む
 		if (CInput::IsPush(MOUSE_LEFT) || CGamePad::IsPadPush(DX_INPUT_PAD1, BUTTON_B))
+		{
+			CFade::RequestFadeOut();
+			m_State = END_WAIT;
+		}
+		else
+			break;
+	case TitleScene::END_WAIT:
+		if (CFade::IsEndFadeOut())
+		{
 			m_State = END;
+		}
 		break;
 	case TitleScene::END:
 		Exit();
@@ -79,6 +95,7 @@ void TitleScene::Load()
 {
 	if (m_Hndl == -1)
 		m_Hndl = LoadGraph(TITLE_IMAGE);
+	CFade::RequestFadeIn();
 }
 
 //-----------------------------------
