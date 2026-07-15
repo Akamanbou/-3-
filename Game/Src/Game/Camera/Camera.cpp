@@ -150,11 +150,11 @@ void Camera::Step(VECTOR forcus, float rotY)
 
 	// カメラの計算----------------------------------------------------
 	MATRIX XRot;
-	XRot = GetPitchMatrix(m_Rot.x);
+	XRot = MyMath::GetPitchMatrix(m_Rot.x);
 
 	// カメラのY軸回転行列を作成
 	MATRIX YRot;
-	YRot = GetYawMatrix(m_Rot.y);
+	YRot = MyMath::GetYawMatrix(m_Rot.y);
 
 	// カメラの位置（高さを上げる）
 	m_Pos = VGet(forcus.x, forcus.y + CAMERA_HEIGHT, forcus.z);

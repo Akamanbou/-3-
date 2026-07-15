@@ -2,7 +2,6 @@
 #include<DxLib.h>
 #include<math.h>
 #include"../../Lib/Object/Object.h"
-#include"../../Lib/MyMath/MyMath.h"
 #include"../../Lib/input/Input.h"
 #include"../../Lib/system/SoundManager.h"
 #include"../Camera/CameraManager.h"
@@ -14,6 +13,8 @@ static const char PLAYER_MODEL_PATH[] = "../Data/Model/Player/PlayerMove.mv1";
 static const float PL_ROTATION_SPEED = 0.1f;
 // プレイヤーの進む速度
 static const float PL_WALK_SPEED = 2.3f;// 1.5f
+// プレイヤーのダッシュ
+static const float PL_DASH_SPEED = 2.0f;
 // 右斜め前移動の角度
 static const int PL_RIGHT_FRONT = 45;
 // 右斜め後移動の角度
@@ -52,6 +53,7 @@ private:
 	int m_Hp;
 	int m_NowExp;	// 現在の経験量
 	int m_WantExp;	// 必要経験値量
+	bool m_Dash;	// ダッシュフラグ
 
 	VECTOR m_AtPos;
 	int m_AtTime;
@@ -63,6 +65,7 @@ private:
 	void Gravity();
 	void Jump();
 	void Attack();
+	void Dash();
 
 public:
 	// コンストラクタ・デストラクタ

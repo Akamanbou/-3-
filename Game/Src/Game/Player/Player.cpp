@@ -26,7 +26,7 @@ void Player::Init()
 	m_isActive = true;
 
 	m_isHitGround = true;
-
+	m_Dash = false;
 	m_JumpPow = 0.0f;
 
 	m_State = NormalState;
@@ -67,14 +67,10 @@ void Player::Step(CameraManager& camera)
 	{
 		// ジャンプしてもよい
 		Jump();
+		m_JumpPow = 0.0f;
 	}
 
 	LevelUp();
-
-	// 地面に触れていたら
-	if (m_isHitGround)
-		// ジャンプ力をゼロにする
-		m_JumpPow = 0.0f;
 
 	// 地面に触れていなければ
 	if (!m_isHitGround)
@@ -95,6 +91,9 @@ void Player::Step(CameraManager& camera)
 		// 移動
 		Move(camera);
 		PadMove(camera);
+		Dash();
+
+
 		break;
 	case AttackState:
 		m_Rot.y = camera.GetCamera().GetRotation().y;
@@ -385,4 +384,23 @@ void Player::Attack()
 	m_AtPos.y = 0.0f;
 	m_AtPos.z = cosf(m_Rot.y) * Attack;
 	m_AtPos = VAdd(m_Pos, m_AtPos);
+}
+
+//------------------------
+// 攻撃処理
+//------------------------
+void Player::Dash()
+{
+	if (CInput::IsCont(KEY_SHIFT))
+	{
+
+		float Speed = 0.0f;
+
+		Speed = PL_DASH_SPEED;
+
+		m_Speed.x = sinf(m_Rot.y) * Speed;
+		m_Speed.z = cosf(m_Rot.y) * Speed;
+
+		m_Pos = VAdd(m_Pos, m_Speed);
+	}
 }

@@ -49,6 +49,7 @@ int PlayScene::Loop()
 	{
 		// ローカル変数に入れる
 		int Return = m_Menu.Step();
+		SetMousePoint(WINDOW_SIZE_X / 2, WINDOW_SIZE_Y / 2); // マウスの位置は画面の中央に設定する
 
 		// ０だったら1を返して状態をINITにする
 		if (Return == 0)

@@ -42,6 +42,7 @@ int TitleScene::Loop()
 		else
 			break;
 	case TitleScene::MAIN:
+		Step();
 		// 左クリックをするか、Bボタンを押したらゲームへ進む
 		if (CInput::IsPush(MOUSE_LEFT) || CGamePad::IsPadPush(DX_INPUT_PAD1, BUTTON_B))
 		{
@@ -74,10 +75,9 @@ int TitleScene::Loop()
 //-----------------------------------
 void TitleScene::Draw()
 {
-	// タイトル中にタイトルと描画するようにする
 	DrawRotaGraph(WINDOW_SIZE_X / 2, WINDOW_SIZE_Y / 2, 1.0f, 0.0f, m_Hndl, true);
-	DrawFormatString(20, 45, WHITE, "タイトル");
 
+	DrawRotaGraph(m_SelectPos.x, m_SelectPos.y, 1.0f, 0.0f, m_SelectHndl, true);
 }
 
 //-----------------------------------
@@ -86,6 +86,9 @@ void TitleScene::Draw()
 void TitleScene::Init()
 {
 	m_Hndl = -1;
+	m_SelectHndl = -1;
+	m_Select = 0;
+	m_SelectPos = { WINDOW_SIZE_X / 2, WINDOW_SIZE_Y / 2 ,0.0f };
 }
 
 //-----------------------------------
@@ -95,14 +98,38 @@ void TitleScene::Load()
 {
 	if (m_Hndl == -1)
 		m_Hndl = LoadGraph(TITLE_IMAGE);
+	if (m_SelectHndl == -1)
+		m_SelectHndl = LoadGraph(TITLE_SELECT);
 	CFade::RequestFadeIn();
 }
 
 //-----------------------------------
 // 毎フレーム呼ぶ処理
 //-----------------------------------
-void TitleScene::Step()
+int TitleScene::Step()
 {
+	Select();
+	if (CInput::IsPush(KEY_W))
+	{
+		if (m_Select != 0)
+		{
+			m_Select--;
+		}
+		else
+			m_Select = 2;
+	}
+	if (CInput::IsPush(KEY_S))
+	{
+		if (m_Select != 2)
+		{
+			m_Select++;
+		}
+		else
+			m_Select = 0;
+	}
+	if (CInput::IsPush(KEY_SPACE))
+		return m_Select;
+	else return -1;
 }
 
 //-----------------------------------
@@ -110,4 +137,20 @@ void TitleScene::Step()
 //-----------------------------------
 void TitleScene::Exit()
 {
+}
+
+void TitleScene::Select()
+{
+	if (m_Select == 0)
+	{
+		m_SelectPos = { m_SelectPos.x,360.0f,0.0f };
+	}
+	if (m_Select == 1)
+	{
+		m_SelectPos = { m_SelectPos.x,465.0f,0.0f };
+	}
+	if (m_Select == 2)
+	{
+		m_SelectPos = { m_SelectPos.x,570.0f,0.0f };
+	}
 }

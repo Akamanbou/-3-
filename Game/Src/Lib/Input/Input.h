@@ -17,6 +17,7 @@
 #define KEY_D (1<<11)
 #define KEY_F (1<<12)
 #define KEY_TAB (1<<13)
+#define KEY_SHIFT (1<<14)
 
 
 class CInput {

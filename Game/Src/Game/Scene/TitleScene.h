@@ -5,7 +5,8 @@
 #include"../../Lib/Input/PadInput.h"
 #include"../../Lib/Fade/Fade.h"
 
-static const char TITLE_IMAGE[] = { "../Data/Image/RPGTitle.png" };
+static const char TITLE_IMAGE[] = { "../Data/Image/Title.png" };
+static const char TITLE_SELECT[] = { "../Data/Image/Select.png" };
 
 
 class TitleScene
@@ -23,13 +24,16 @@ private:
 	};
 
 	tagScene m_State; // 現在の状態遷移
+	int m_Hndl;
+	int m_SelectHndl;
+	int m_Select;
+	VECTOR m_SelectPos;
 
 public:
 	// コンストラクタ・デストラクタ
 	TitleScene();
 	~TitleScene();
 
-	int m_Hndl;
 
 	// 繰り返し行う処理
 	int Loop();
@@ -44,5 +48,7 @@ private:
 	// データロード
 	void Load();
 	// 毎フレーム呼ぶ処理
-	void Step();
+	int Step();
+
+	void Select();
 };

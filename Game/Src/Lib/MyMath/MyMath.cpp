@@ -1,7 +1,7 @@
 #include "MyMath.h"
 #include <math.h>
 
-VECTOR VecCreate(VECTOR vPosA, VECTOR vPosB)
+VECTOR MyMath::VecCreate(VECTOR vPosA, VECTOR vPosB)
 {//ベクトル生成
 	VECTOR result;
 	result.x = vPosB.x - vPosA.x;
@@ -10,14 +10,14 @@ VECTOR VecCreate(VECTOR vPosA, VECTOR vPosB)
 	return result;
 }
 
-float VecLong(VECTOR PosA, VECTOR PosB)
+float  MyMath::VecLong(VECTOR PosA, VECTOR PosB)
 {//ベクトルの長さを返す
 	float result;
 	result = sqrtf((PosA.x - PosB.x) * (PosA.x - PosB.x) + (PosA.y - PosB.y) * (PosA.y - PosB.y) + (PosA.z - PosB.z) * (PosA.z - PosB.z));
 	return result;
 }
 
-VECTOR VecAdd(VECTOR vecA, VECTOR vecB)
+VECTOR  MyMath::VecAdd(VECTOR vecA, VECTOR vecB)
 {//ベクトルの足し算
 	VECTOR result;
 	result.x = vecA.x + vecB.x;
@@ -27,7 +27,7 @@ VECTOR VecAdd(VECTOR vecA, VECTOR vecB)
 	return result;
 }
 
-VECTOR VecSubtract(VECTOR vecA, VECTOR vecB)
+VECTOR  MyMath::VecSubtract(VECTOR vecA, VECTOR vecB)
 {//ベクトルの引き算
 	VECTOR result;
 	result.x = vecA.x - vecB.x;
@@ -38,7 +38,7 @@ VECTOR VecSubtract(VECTOR vecA, VECTOR vecB)
 
 }
 
-VECTOR VecScale(VECTOR vec, float scale)
+VECTOR  MyMath::VecScale(VECTOR vec, float scale)
 {//ベクトルのスカラー倍
 	VECTOR result;
 	result.x = vec.x * scale;
@@ -48,14 +48,14 @@ VECTOR VecScale(VECTOR vec, float scale)
 	return result;
 }
 
-float VecDot(VECTOR vecA, VECTOR vecB)
+float  MyMath::VecDot(VECTOR vecA, VECTOR vecB)
 {//ベクトルの内積
 	float result;
 	result = vecA.x * vecB.x + vecA.y * vecB.y + vecA.z * vecB.z;
 	return result;
 }
 
-VECTOR VecCross(VECTOR vecA, VECTOR vecB)
+VECTOR  MyMath::VecCross(VECTOR vecA, VECTOR vecB)
 {//ベクトルの外積
 	VECTOR result;
 	result.x = vecA.y * vecB.z - vecA.z * vecB.y;
@@ -64,7 +64,7 @@ VECTOR VecCross(VECTOR vecA, VECTOR vecB)
 	return result;
 }
 
-VECTOR VecNormalize(VECTOR vec)
+VECTOR  MyMath::VecNormalize(VECTOR vec)
 {//ベクトルの正規化
 	float size;
 	VECTOR result;
@@ -77,7 +77,7 @@ VECTOR VecNormalize(VECTOR vec)
 	return result;
 }
 
-void Matldentity(MATRIX *mp)
+void  MyMath::Matldentity(MATRIX *mp)
 {//行列生成
 	for(int i = 0; i < 4; i++)
 	{
@@ -95,55 +95,7 @@ void Matldentity(MATRIX *mp)
 	}
 }
 
-//MATRIX MatAdd(MATRIX matA, MATRIX matB)
-//{//行列同士の加算
-//	MATRIX result;
-//	memset(&result, 0, sizeof(result));
-//	for(int i = 0; i < 4; i++)
-//	{
-//		for(int j = 0; j < 4; j++)
-//		{
-//			result.m[i][j] = matA.m[i][j] + matB.m[i][j];
-//		}
-//	}
-//
-//	return result;
-//}
-
-MATRIX MyMatMult(MATRIX matA, MATRIX matB)
-{//行列の掛け算
-	MATRIX result;
-	memset(&result, 0, sizeof(result));
-	for(int i = 0; i < 4; i++)
-	{
-		for(int j = 0; j < 4; j++)
-		{
-			for(int k = 0; k < 4; k++)
-			{
-				result.m[i][j] += (matA.m[i][k] * matB.m[k][j]);
-			}
-		}
-	}
-
-	return result;
-}
-
-//MATRIX MatScale(MATRIX mat, float scale)
-//{//行列のスカラー倍
-//	MATRIX result;
-//	memset(&result, 0, sizeof(result));
-//	for(int i = 0; i < 4; i++)
-//	{
-//		for(int j = 0; j < 4; j++)
-//		{
-//			result.m[i][j] = mat.m[i][j] * scale;
-//		}
-//	}
-//
-//	return result;
-//}
-
-VECTOR Transform(MATRIX mat, VECTOR vec)
+VECTOR  MyMath::Transform(MATRIX mat, VECTOR vec)
 {//ベクトル×行列
 	float tVec[4];
 	float rVec[4] = {0.0f, 0.0f, 0.0f, 0.0f};
@@ -167,22 +119,22 @@ VECTOR Transform(MATRIX mat, VECTOR vec)
 	return result;
 }
 
-float GetAngleX(VECTOR vec1, VECTOR vec2)
+float  MyMath::GetAngleX(VECTOR vec1, VECTOR vec2)
 {//角度を取得（X軸）
 	return -(atan2f( vec1.y - vec2.y, vec1.z - vec2.z ));
 }
 
-float GetAngleY(VECTOR vec1, VECTOR vec2)
+float  MyMath::GetAngleY(VECTOR vec1, VECTOR vec2)
 {//角度を取得（Y軸）
 	return atan2f( vec1.x - vec2.x, vec1.z - vec2.z );
 }
 
-float GetAngleZ(VECTOR vec1, VECTOR vec2)
+float  MyMath::GetAngleZ(VECTOR vec1, VECTOR vec2)
 {//角度を取得（Z軸）
 	return -(atan2f( vec1.y - vec2.y, vec1.x - vec2.x ));
 }
 
-float MyAbsf(float i_fNum)
+float  MyMath::MyAbsf(float i_fNum)
 {//絶対値の取得
 	if(i_fNum < 0.0f)
 	{
@@ -191,7 +143,7 @@ float MyAbsf(float i_fNum)
 	return i_fNum;
 }
 
-MATRIX GetIdentityMatrix()
+MATRIX  MyMath::GetIdentityMatrix()
 {//単位行列を取得する
 	MATRIX test;
 	for (int i = 0; i < 4; i++)
@@ -211,7 +163,7 @@ MATRIX GetIdentityMatrix()
 	return test;
 }
 
-MATRIX GetTranslateMatrix(float x, float y, float z)
+MATRIX  MyMath::GetTranslateMatrix(float x, float y, float z)
 {// 平行移動行列を取得する
 	MATRIX test = GetIdentityMatrix();
 	test.m[0][3] = x;
@@ -221,7 +173,7 @@ MATRIX GetTranslateMatrix(float x, float y, float z)
 	return test;
 }
 
-MATRIX GetScaleMtrix(VECTOR SCALE)
+MATRIX  MyMath::GetScaleMtrix(VECTOR SCALE)
 {
 	MATRIX test = GetIdentityMatrix();
 	test.m[0][0] = SCALE.x;
@@ -231,7 +183,7 @@ MATRIX GetScaleMtrix(VECTOR SCALE)
 	return test;
 }
 
-MATRIX GetPitchMatrix(float Rad)
+MATRIX  MyMath::GetPitchMatrix(float Rad)
 {
 	MATRIX test = GetIdentityMatrix();
 	test.m[1][1] = cosf(Rad);
@@ -242,7 +194,7 @@ MATRIX GetPitchMatrix(float Rad)
 	return test;
 }
 
-MATRIX GetYawMatrix(float Rad)
+MATRIX  MyMath::GetYawMatrix(float Rad)
 {
 	MATRIX test = GetIdentityMatrix();
 	test.m[0][0] = cosf(Rad);
@@ -253,7 +205,7 @@ MATRIX GetYawMatrix(float Rad)
 	return test;
 }
 
-MATRIX GetRollMatrix(float Rad)
+MATRIX  MyMath::GetRollMatrix(float Rad)
 {
 	MATRIX test = GetIdentityMatrix();
 	test.m[0][0] = cosf(Rad);
@@ -264,7 +216,7 @@ MATRIX GetRollMatrix(float Rad)
 	return test;
 }
 
-MATRIX MatAdd(MATRIX matA, MATRIX matB)
+MATRIX  MyMath::MatAdd(MATRIX matA, MATRIX matB)
 {
 	MATRIX test = { 0 };
 	for (int i = 0; i < 4; i++)
@@ -277,7 +229,7 @@ MATRIX MatAdd(MATRIX matA, MATRIX matB)
 	return test;
 }
 
-MATRIX MatScale(MATRIX matA, float scale)
+MATRIX MyMath::MatScale(MATRIX matA, float scale)
 {
 	MATRIX test = { 0 };
 	for (int i = 0; i < 4; i++)
@@ -290,7 +242,7 @@ MATRIX MatScale(MATRIX matA, float scale)
 	return test;
 }
 
-MATRIX MatMult(MATRIX matA, MATRIX matB)
+MATRIX MyMath::MatMult(MATRIX matA, MATRIX matB)
 {
 	MATRIX test = { 0 };
 	for (int i = 0; i < 4; i++)
@@ -306,7 +258,7 @@ MATRIX MatMult(MATRIX matA, MATRIX matB)
 	return test;
 }
 
-VECTOR MatTransform(MATRIX matA, VECTOR vec1)
+VECTOR  MyMath::MatTransform(MATRIX matA, VECTOR vec1)
 {
 	float test[4] = { 0 };
 	float result_buf[4] = { 0 };
@@ -328,7 +280,7 @@ VECTOR MatTransform(MATRIX matA, VECTOR vec1)
 	return result_vec;
 }
 
-MATRIX MatTranspose(MATRIX mat)
+MATRIX  MyMath::MatTranspose(MATRIX mat)
 {
 	MATRIX result = { 0 };
 	for (int i = 0; i < 4; i++)
@@ -340,9 +292,4 @@ MATRIX MatTranspose(MATRIX mat)
 	}
 
 	return result;
-}
-
-// ディグリー角をラジアン角に
-float DegRad(float deg) {
-	return deg * (DX_PI_F / 180);
 }

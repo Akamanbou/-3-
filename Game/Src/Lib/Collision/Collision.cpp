@@ -1,4 +1,6 @@
 #include "collision.h"
+#include"cmath"
+using namespace std;
 
 //---------------------------------
 // 点と四角の当たり判定
@@ -131,4 +133,45 @@ bool Collision::CheckHitSphereToSphere(VECTOR spherePos1, float radius1,
 		return true;
 	}
 	else return false;
+}
+
+//---------------------------------
+// ボックスとラインの当たり判定
+//---------------------------------
+bool Collision::CheckHitLineTobox(VECTOR boxPos, VECTOR boxSize, VECTOR lineStart, VECTOR lineEnd)
+{
+	VECTOR Half = VScale(boxSize, 0.5f);
+	VECTOR BoxMin = VSub(boxPos, Half);
+	VECTOR BoxMax = VAdd(boxPos, Half);
+
+	VECTOR Dir = VSub(lineStart, lineEnd);
+	float TMin = 0.0f;
+	float TMax = 1.0f;
+
+	auto CheckAxis = [&](float s, float d, float mn, float mx)->bool {
+		if (fabs(d) < 0.000001f)
+		{
+			return (s >= mn && s <= mx);
+		}
+		float T1 = (mn - s) / d;
+		float T2 = (mx - s) / d;
+
+		float Tnear = min(T1, T2);
+		float TFar = max(T1, T2);
+
+		if (TFar<TMin || Tnear>TMax)
+			return false;
+
+		TMin = max(TMin, Tnear);
+		TMax = min(TMax, TFar);
+		return TMin < TMax;
+		};
+
+	if (!CheckAxis(lineStart.x, Dir.x, BoxMin.x, BoxMax.x))return false;
+	if (!CheckAxis(lineStart.y, Dir.y, BoxMin.y, BoxMax.y))return false;
+	if (!CheckAxis(lineStart.z, Dir.z, BoxMin.z, BoxMax.z))return false;
+
+	float t = TMin;
+	if (t < 0.0f || t>1.0f)return false;
+	return true;
 }

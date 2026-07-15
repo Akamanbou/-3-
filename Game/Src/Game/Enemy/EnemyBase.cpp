@@ -36,6 +36,8 @@ void EnemyBase::Init()
 
 	m_Len = 0.0f;
 
+	m_MaxHp = 20;
+
 	m_Hp = m_MaxHp;
 
 	m_Attack = false;

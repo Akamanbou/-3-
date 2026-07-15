@@ -41,4 +41,6 @@ public:
 	//	@return		:	true=ìñÇΩÇ¡ÇΩÅ@false=ìñÇΩÇ¡ÇƒÇ¢Ç»Ç¢
 	static bool CheckHitSphereToSphere(VECTOR spherePos1, float radius1,
 		VECTOR spherePos2, float radius2);
+
+	static bool CheckHitLineTobox(VECTOR boxPos, VECTOR boxSize, VECTOR lineStart, VECTOR lineEnd);
 };
