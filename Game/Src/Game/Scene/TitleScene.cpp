@@ -42,15 +42,22 @@ int TitleScene::Loop()
 		else
 			break;
 	case TitleScene::MAIN:
-		Step();
+	{
+		int Return = Step();
 		// 左クリックをするか、Bボタンを押したらゲームへ進む
-		if (CInput::IsPush(MOUSE_LEFT) || CGamePad::IsPadPush(DX_INPUT_PAD1, BUTTON_B))
+		if (Return == 0)
 		{
 			CFade::RequestFadeOut();
 			m_State = END_WAIT;
 		}
+		if (Return == 2)
+		{
+			return 1;
+			m_State = INIT;
+		}
 		else
 			break;
+	}
 	case TitleScene::END_WAIT:
 		if (CFade::IsEndFadeOut())
 		{

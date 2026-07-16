@@ -39,10 +39,15 @@ int SceneManager::Loop()
 		break;
 		// タイトル
 	case SceneManager::TITLE:
-		if (m_Title.Loop() == 0)
+	{
+		int Title = m_Title.Loop();
+		if (Title == 0)
 			m_SceneID = GAME;
+		else if (Title == 1)
+			return 0;
 		break;
-		// メインゲーム
+	}
+	// メインゲーム
 	case SceneManager::GAME:
 	{
 		// ローカル変数に入れる
